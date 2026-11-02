@@ -1,0 +1,11 @@
+# Secrets
+.env
+
+# Research logs (may contain learner sessions)
+logs/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/

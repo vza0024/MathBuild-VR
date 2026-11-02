@@ -1,0 +1,273 @@
+{
+  "description": "Visibility snapshots for one scripted state under the five scripted views. 'request_view' is what the VR client sends (scripted here, in the same format as the headset capture). 'prompt_view_context' is the structured context the LLM receives. In the reference condition neither is given to the model.",
+  "state_id": "MC-EQUAL_GROUPS-nluds-0409__two_errors",
+  "visibility_thresholds": {
+    "not_visible_below": 0.1,
+    "mostly_visible_from": 0.7
+  },
+  "field_definitions": {
+    "region_id": "workspace region identifier",
+    "visible_fraction": "share of nine sample points on the region's top face inside the headset viewport and unoccluded (0-1)",
+    "label_visible": "region label currently visible",
+    "label_seen_this_attempt": "label has been visible earlier in this attempt",
+    "visibility": "not_visible (<0.10), partially_visible (0.10-<0.70), mostly_visible (>=0.70)",
+    "learner_has_seen_name": "label previously seen (controls 'Turn toward' vs 'Turn to find the part of the story')"
+  },
+  "views": {
+    "relevant-only": {
+      "scripted_view_id": "relevant_visible",
+      "relevant_region": "group_1",
+      "request_view": {
+        "regions": [
+          {
+            "region_id": "group_1",
+            "visible_fraction": 1.0,
+            "label_visible": true,
+            "label_seen_this_attempt": true
+          },
+          {
+            "region_id": "group_2",
+            "visible_fraction": 0.0,
+            "label_visible": false,
+            "label_seen_this_attempt": true
+          },
+          {
+            "region_id": "group_3",
+            "visible_fraction": 0.0,
+            "label_visible": false,
+            "label_seen_this_attempt": true
+          }
+        ]
+      },
+      "prompt_view_context": {
+        "regions": [
+          {
+            "visibility": "mostly_visible",
+            "label_visible_now": true,
+            "label_seen_this_attempt": true,
+            "region_name": "Group 1",
+            "learner_has_seen_name": true
+          },
+          {
+            "visibility": "not_visible",
+            "label_visible_now": false,
+            "label_seen_this_attempt": true,
+            "region_name": "Group 2",
+            "learner_has_seen_name": true
+          },
+          {
+            "visibility": "not_visible",
+            "label_visible_now": false,
+            "label_seen_this_attempt": true,
+            "region_name": "Group 3",
+            "learner_has_seen_name": true
+          }
+        ]
+      }
+    },
+    "all-visible": {
+      "scripted_view_id": "all_visible",
+      "relevant_region": "group_1",
+      "request_view": {
+        "regions": [
+          {
+            "region_id": "group_1",
+            "visible_fraction": 1.0,
+            "label_visible": true,
+            "label_seen_this_attempt": true
+          },
+          {
+            "region_id": "group_2",
+            "visible_fraction": 1.0,
+            "label_visible": true,
+            "label_seen_this_attempt": true
+          },
+          {
+            "region_id": "group_3",
+            "visible_fraction": 1.0,
+            "label_visible": true,
+            "label_seen_this_attempt": true
+          }
+        ]
+      },
+      "prompt_view_context": {
+        "regions": [
+          {
+            "visibility": "mostly_visible",
+            "label_visible_now": true,
+            "label_seen_this_attempt": true,
+            "region_name": "Group 1",
+            "learner_has_seen_name": true
+          },
+          {
+            "visibility": "mostly_visible",
+            "label_visible_now": true,
+            "label_seen_this_attempt": true,
+            "region_name": "Group 2",
+            "learner_has_seen_name": true
+          },
+          {
+            "visibility": "mostly_visible",
+            "label_visible_now": true,
+            "label_seen_this_attempt": true,
+            "region_name": "Group 3",
+            "learner_has_seen_name": true
+          }
+        ]
+      }
+    },
+    "partial": {
+      "scripted_view_id": "relevant_partial",
+      "relevant_region": "group_1",
+      "request_view": {
+        "regions": [
+          {
+            "region_id": "group_1",
+            "visible_fraction": 0.4444444444444444,
+            "label_visible": true,
+            "label_seen_this_attempt": true
+          },
+          {
+            "region_id": "group_2",
+            "visible_fraction": 1.0,
+            "label_visible": true,
+            "label_seen_this_attempt": true
+          },
+          {
+            "region_id": "group_3",
+            "visible_fraction": 1.0,
+            "label_visible": true,
+            "label_seen_this_attempt": true
+          }
+        ]
+      },
+      "prompt_view_context": {
+        "regions": [
+          {
+            "visibility": "partially_visible",
+            "label_visible_now": true,
+            "label_seen_this_attempt": true,
+            "region_name": "Group 1",
+            "learner_has_seen_name": true
+          },
+          {
+            "visibility": "mostly_visible",
+            "label_visible_now": true,
+            "label_seen_this_attempt": true,
+            "region_name": "Group 2",
+            "learner_has_seen_name": true
+          },
+          {
+            "visibility": "mostly_visible",
+            "label_visible_now": true,
+            "label_seen_this_attempt": true,
+            "region_name": "Group 3",
+            "learner_has_seen_name": true
+          }
+        ]
+      }
+    },
+    "hidden-seen": {
+      "scripted_view_id": "relevant_hidden",
+      "relevant_region": "group_1",
+      "request_view": {
+        "regions": [
+          {
+            "region_id": "group_1",
+            "visible_fraction": 0.0,
+            "label_visible": false,
+            "label_seen_this_attempt": true
+          },
+          {
+            "region_id": "group_2",
+            "visible_fraction": 1.0,
+            "label_visible": true,
+            "label_seen_this_attempt": true
+          },
+          {
+            "region_id": "group_3",
+            "visible_fraction": 1.0,
+            "label_visible": true,
+            "label_seen_this_attempt": true
+          }
+        ]
+      },
+      "prompt_view_context": {
+        "regions": [
+          {
+            "visibility": "not_visible",
+            "label_visible_now": false,
+            "label_seen_this_attempt": true,
+            "region_name": "Group 1",
+            "learner_has_seen_name": true
+          },
+          {
+            "visibility": "mostly_visible",
+            "label_visible_now": true,
+            "label_seen_this_attempt": true,
+            "region_name": "Group 2",
+            "learner_has_seen_name": true
+          },
+          {
+            "visibility": "mostly_visible",
+            "label_visible_now": true,
+            "label_seen_this_attempt": true,
+            "region_name": "Group 3",
+            "learner_has_seen_name": true
+          }
+        ]
+      }
+    },
+    "hidden-unseen": {
+      "scripted_view_id": "relevant_hidden_unseen",
+      "relevant_region": "group_1",
+      "request_view": {
+        "regions": [
+          {
+            "region_id": "group_1",
+            "visible_fraction": 0.0,
+            "label_visible": false,
+            "label_seen_this_attempt": false
+          },
+          {
+            "region_id": "group_2",
+            "visible_fraction": 1.0,
+            "label_visible": true,
+            "label_seen_this_attempt": true
+          },
+          {
+            "region_id": "group_3",
+            "visible_fraction": 1.0,
+            "label_visible": true,
+            "label_seen_this_attempt": true
+          }
+        ]
+      },
+      "prompt_view_context": {
+        "regions": [
+          {
+            "visibility": "not_visible",
+            "label_visible_now": false,
+            "label_seen_this_attempt": false,
+            "region_name": "Group 1",
+            "learner_has_seen_name": false
+          },
+          {
+            "visibility": "mostly_visible",
+            "label_visible_now": true,
+            "label_seen_this_attempt": true,
+            "region_name": "Group 2",
+            "learner_has_seen_name": true
+          },
+          {
+            "visibility": "mostly_visible",
+            "label_visible_now": true,
+            "label_seen_this_attempt": true,
+            "region_name": "Group 3",
+            "learner_has_seen_name": true
+          }
+        ]
+      }
+    }
+  }
+}

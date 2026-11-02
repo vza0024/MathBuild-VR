@@ -1,0 +1,2891 @@
+[
+  {
+    "id": "MC-JOIN-nluds-0001",
+    "asdiv_id": "nluds-0001",
+    "grade": 1,
+    "body": "Seven red apples and two green apples are in the basket.",
+    "question": "How many apples are in the basket?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "RESULT_UNKNOWN",
+    "unknown_position": "RESULT",
+    "answer": "9 (apples)",
+    "formula": "7+2=9",
+    "parameters": {
+      "initial": 7,
+      "change": 2,
+      "result": 9,
+      "unknown_position": "RESULT"
+    },
+    "visual": {
+      "object_label": "apple",
+      "object_plural": "apples",
+      "object_code": "1F34E",
+      "fallback_emoji": "🍎",
+      "initial_object_label": "red apple",
+      "initial_object_code": "1F34E",
+      "initial_fallback_emoji": "🍎",
+      "change_object_label": "green apple",
+      "change_object_code": "1F34F",
+      "change_fallback_emoji": "🍏",
+      "group_label": "Basket"
+    },
+    "interaction": "JOIN",
+    "visible_roles": [
+      "INITIAL",
+      "CHANGE"
+    ],
+    "hidden_role": "RESULT"
+  },
+  {
+    "id": "MC-JOIN-nluds-0003",
+    "asdiv_id": "nluds-0003",
+    "grade": 1,
+    "body": "Janet has nine oranges and Sharon has seven oranges.",
+    "question": "How many oranges do Janet and Sharon have together?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "RESULT_UNKNOWN",
+    "unknown_position": "RESULT",
+    "answer": "16 (oranges)",
+    "formula": "9+7=16",
+    "parameters": {
+      "initial": 9,
+      "change": 7,
+      "result": 16,
+      "unknown_position": "RESULT"
+    },
+    "visual": {
+      "object_label": "orange",
+      "object_plural": "oranges",
+      "object_code": "1F34A",
+      "fallback_emoji": "🍊",
+      "initial_object_label": "orange",
+      "initial_object_code": "1F34A",
+      "initial_fallback_emoji": "🍊",
+      "change_object_label": "orange",
+      "change_object_code": "1F34A",
+      "change_fallback_emoji": "🍊",
+      "part_a_label": "Janet",
+      "part_b_label": "Sharon"
+    },
+    "interaction": "JOIN",
+    "visible_roles": [
+      "INITIAL",
+      "CHANGE"
+    ],
+    "hidden_role": "RESULT"
+  },
+  {
+    "id": "MC-JOIN-nluds-0004",
+    "asdiv_id": "nluds-0004",
+    "grade": 1,
+    "body": "Allan brought two balloons and Jake brought four balloons to the park.",
+    "question": "How many balloons did Allan and Jake have in the park?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "RESULT_UNKNOWN",
+    "unknown_position": "RESULT",
+    "answer": "6 (balloons)",
+    "formula": "2+4=6",
+    "parameters": {
+      "initial": 2,
+      "change": 4,
+      "result": 6,
+      "unknown_position": "RESULT"
+    },
+    "visual": {
+      "object_label": "balloon",
+      "object_plural": "balloons",
+      "object_code": "1F388",
+      "fallback_emoji": "🎈",
+      "initial_object_label": "balloon",
+      "initial_object_code": "1F388",
+      "initial_fallback_emoji": "🎈",
+      "change_object_label": "balloon",
+      "change_object_code": "1F388",
+      "change_fallback_emoji": "🎈",
+      "part_a_label": "Allan",
+      "part_b_label": "Jake"
+    },
+    "interaction": "JOIN",
+    "visible_roles": [
+      "INITIAL",
+      "CHANGE"
+    ],
+    "hidden_role": "RESULT"
+  },
+  {
+    "id": "MC-JOIN-nluds-0007",
+    "asdiv_id": "nluds-0007",
+    "grade": 1,
+    "body": "Sandra took six cups of coffee and Marcie took two cups of coffee.",
+    "question": "How many cups of coffee did Sandra and Marcie take in total?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "RESULT_UNKNOWN",
+    "unknown_position": "RESULT",
+    "answer": "8 (cups)",
+    "formula": "2+6=8",
+    "parameters": {
+      "initial": 6,
+      "change": 2,
+      "result": 8,
+      "unknown_position": "RESULT"
+    },
+    "visual": {
+      "object_label": "cup of coffee",
+      "object_plural": "cups of coffee",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠",
+      "initial_object_label": "cup of coffee",
+      "initial_object_code": "1F7E0",
+      "initial_fallback_emoji": "🟠",
+      "change_object_label": "cup of coffee",
+      "change_object_code": "1F7E0",
+      "change_fallback_emoji": "🟠",
+      "part_a_label": "Sandra",
+      "part_b_label": "Marcie"
+    },
+    "interaction": "JOIN",
+    "visible_roles": [
+      "INITIAL",
+      "CHANGE"
+    ],
+    "hidden_role": "RESULT"
+  },
+  {
+    "id": "MC-JOIN-nluds-0009",
+    "asdiv_id": "nluds-0009",
+    "grade": 1,
+    "body": "14 red plums and four green plums are in the basket.",
+    "question": "How many plums are in the basket?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "RESULT_UNKNOWN",
+    "unknown_position": "RESULT",
+    "answer": "18 (plums)",
+    "formula": "4+14=18",
+    "parameters": {
+      "initial": 14,
+      "change": 4,
+      "result": 18,
+      "unknown_position": "RESULT"
+    },
+    "visual": {
+      "object_label": "counter",
+      "object_plural": "counters",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠",
+      "initial_object_label": "red plum",
+      "initial_object_code": "1F534",
+      "initial_fallback_emoji": "🔴",
+      "change_object_label": "green plum",
+      "change_object_code": "1F7E2",
+      "change_fallback_emoji": "🟢",
+      "group_label": "Basket"
+    },
+    "interaction": "JOIN",
+    "visible_roles": [
+      "INITIAL",
+      "CHANGE"
+    ],
+    "hidden_role": "RESULT"
+  },
+  {
+    "id": "MC-JOIN-nluds-0010",
+    "asdiv_id": "nluds-0010",
+    "grade": 1,
+    "body": "Marin has nine apples and Donald has two apples.",
+    "question": "How many apples do Marin and Donald have together?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "RESULT_UNKNOWN",
+    "unknown_position": "RESULT",
+    "answer": "11 (apples)",
+    "formula": "9+2=11",
+    "parameters": {
+      "initial": 9,
+      "change": 2,
+      "result": 11,
+      "unknown_position": "RESULT"
+    },
+    "visual": {
+      "object_label": "apple",
+      "object_plural": "apples",
+      "object_code": "1F34E",
+      "fallback_emoji": "🍎",
+      "initial_object_label": "apple",
+      "initial_object_code": "1F34E",
+      "initial_fallback_emoji": "🍎",
+      "change_object_label": "apple",
+      "change_object_code": "1F34E",
+      "change_fallback_emoji": "🍎",
+      "part_a_label": "Marin",
+      "part_b_label": "Donald"
+    },
+    "interaction": "JOIN",
+    "visible_roles": [
+      "INITIAL",
+      "CHANGE"
+    ],
+    "hidden_role": "RESULT"
+  },
+  {
+    "id": "MC-JOIN-nluds-0021",
+    "asdiv_id": "nluds-0021",
+    "grade": 1,
+    "body": "2 birds were sitting on the fence. 4 more birds came to join them.",
+    "question": "How many birds are sitting on the fence?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "RESULT_UNKNOWN",
+    "unknown_position": "RESULT",
+    "answer": "6 (birds)",
+    "formula": "2+4=6",
+    "parameters": {
+      "initial": 2,
+      "change": 4,
+      "result": 6,
+      "unknown_position": "RESULT"
+    },
+    "visual": {
+      "object_label": "bird",
+      "object_plural": "birds",
+      "object_code": "1F426",
+      "fallback_emoji": "🐦",
+      "initial_object_label": "bird",
+      "initial_object_code": "1F426",
+      "initial_fallback_emoji": "🐦",
+      "change_object_label": "bird",
+      "change_object_code": "1F426",
+      "change_fallback_emoji": "🐦",
+      "group_label": "Fence"
+    },
+    "interaction": "JOIN",
+    "visible_roles": [
+      "INITIAL",
+      "CHANGE"
+    ],
+    "hidden_role": "RESULT"
+  },
+  {
+    "id": "MC-JOIN-nluds-0026",
+    "asdiv_id": "nluds-0026",
+    "grade": 1,
+    "body": "One lonely pigeon was eating breadcrumbs. Another pigeon came to eat too.",
+    "question": "How many pigeons are eating breadcrumbs now?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "RESULT_UNKNOWN",
+    "unknown_position": "RESULT",
+    "answer": "2 (pigeons)",
+    "formula": "1+1=2",
+    "parameters": {
+      "initial": 1,
+      "change": 1,
+      "result": 2,
+      "unknown_position": "RESULT"
+    },
+    "visual": {
+      "object_label": "pigeon",
+      "object_plural": "pigeons",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠",
+      "initial_object_label": "pigeon",
+      "initial_object_code": "1F7E0",
+      "initial_fallback_emoji": "🟠",
+      "change_object_label": "pigeon",
+      "change_object_code": "1F7E0",
+      "change_fallback_emoji": "🟠",
+      "group_label": "Eating breadcrumbs"
+    },
+    "interaction": "JOIN",
+    "visible_roles": [
+      "INITIAL",
+      "CHANGE"
+    ],
+    "hidden_role": "RESULT"
+  },
+  {
+    "id": "MC-JOIN-nluds-0027",
+    "asdiv_id": "nluds-0027",
+    "grade": 1,
+    "body": "3 owls were sitting on the fence. 2 more owls joined them.",
+    "question": "How many owls are on the fence now?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "RESULT_UNKNOWN",
+    "unknown_position": "RESULT",
+    "answer": "5 (owls)",
+    "formula": "3+2=5",
+    "parameters": {
+      "initial": 3,
+      "change": 2,
+      "result": 5,
+      "unknown_position": "RESULT"
+    },
+    "visual": {
+      "object_label": "owl",
+      "object_plural": "owls",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠",
+      "initial_object_label": "owl",
+      "initial_object_code": "1F7E0",
+      "initial_fallback_emoji": "🟠",
+      "change_object_label": "owl",
+      "change_object_code": "1F7E0",
+      "change_fallback_emoji": "🟠",
+      "group_label": "Fence"
+    },
+    "interaction": "JOIN",
+    "visible_roles": [
+      "INITIAL",
+      "CHANGE"
+    ],
+    "hidden_role": "RESULT"
+  },
+  {
+    "id": "MC-JOIN-nluds-0029",
+    "asdiv_id": "nluds-0029",
+    "grade": 1,
+    "body": "2 toucans are sitting on a tree limb. 1 more toucan joins them.",
+    "question": "How many toucans are there in all?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "RESULT_UNKNOWN",
+    "unknown_position": "RESULT",
+    "answer": "3 (toucans)",
+    "formula": "2+1=3",
+    "parameters": {
+      "initial": 2,
+      "change": 1,
+      "result": 3,
+      "unknown_position": "RESULT"
+    },
+    "visual": {
+      "object_label": "toucan",
+      "object_plural": "toucans",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠",
+      "initial_object_label": "toucan",
+      "initial_object_code": "1F7E0",
+      "initial_fallback_emoji": "🟠",
+      "change_object_label": "toucan",
+      "change_object_code": "1F7E0",
+      "change_fallback_emoji": "🟠",
+      "group_label": "Tree limb"
+    },
+    "interaction": "JOIN",
+    "visible_roles": [
+      "INITIAL",
+      "CHANGE"
+    ],
+    "hidden_role": "RESULT"
+  },
+  {
+    "id": "MC-JOIN-nluds-0051",
+    "asdiv_id": "nluds-0051",
+    "grade": 1,
+    "body": "Mary's mom is getting ready for Mary's birthday party. She blew up 6 balloons this morning and 5 balloons this afternoon.",
+    "question": "How many balloons did she blow up in all?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "RESULT_UNKNOWN",
+    "unknown_position": "RESULT",
+    "answer": "11 (balloons)",
+    "formula": "6+5=11",
+    "parameters": {
+      "initial": 6,
+      "change": 5,
+      "result": 11,
+      "unknown_position": "RESULT"
+    },
+    "visual": {
+      "object_label": "balloon",
+      "object_plural": "balloons",
+      "object_code": "1F388",
+      "fallback_emoji": "🎈",
+      "initial_object_label": "balloon",
+      "initial_object_code": "1F388",
+      "initial_fallback_emoji": "🎈",
+      "change_object_label": "balloon",
+      "change_object_code": "1F388",
+      "change_fallback_emoji": "🎈",
+      "part_a_label": "Morning",
+      "part_b_label": "Afternoon"
+    },
+    "interaction": "JOIN",
+    "visible_roles": [
+      "INITIAL",
+      "CHANGE"
+    ],
+    "hidden_role": "RESULT"
+  },
+  {
+    "id": "MC-JOIN-nluds-0053",
+    "asdiv_id": "nluds-0053",
+    "grade": 1,
+    "body": "The Litter Patrol picked up 10 glass bottles and 8 aluminum cans on Saturday.",
+    "question": "How many pieces of litter did they pick up altogether?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "RESULT_UNKNOWN",
+    "unknown_position": "RESULT",
+    "answer": "18 (pieces)",
+    "formula": "10+8=18",
+    "parameters": {
+      "initial": 10,
+      "change": 8,
+      "result": 18,
+      "unknown_position": "RESULT"
+    },
+    "visual": {
+      "object_label": "piece of litter",
+      "object_plural": "pieces of litter",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠",
+      "initial_object_label": "glass bottle",
+      "initial_object_code": "1F7E0",
+      "initial_fallback_emoji": "🟠",
+      "change_object_label": "aluminum can",
+      "change_object_code": "1F7E0",
+      "change_fallback_emoji": "🟠",
+      "group_label": "Litter"
+    },
+    "interaction": "JOIN",
+    "visible_roles": [
+      "INITIAL",
+      "CHANGE"
+    ],
+    "hidden_role": "RESULT"
+  },
+  {
+    "id": "MC-JOIN-nluds-0068",
+    "asdiv_id": "nluds-0068",
+    "grade": 2,
+    "body": "There are twelve birds on the fence. Eight more birds land on the fence.",
+    "question": "How many birds are on the fence?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "RESULT_UNKNOWN",
+    "unknown_position": "RESULT",
+    "answer": "20 (birds)",
+    "formula": "12+8=20",
+    "parameters": {
+      "initial": 12,
+      "change": 8,
+      "result": 20,
+      "unknown_position": "RESULT"
+    },
+    "visual": {
+      "object_label": "bird",
+      "object_plural": "birds",
+      "object_code": "1F426",
+      "fallback_emoji": "🐦",
+      "initial_object_label": "bird",
+      "initial_object_code": "1F426",
+      "initial_fallback_emoji": "🐦",
+      "change_object_label": "bird",
+      "change_object_code": "1F426",
+      "change_fallback_emoji": "🐦",
+      "group_label": "Fence"
+    },
+    "interaction": "JOIN",
+    "visible_roles": [
+      "INITIAL",
+      "CHANGE"
+    ],
+    "hidden_role": "RESULT"
+  },
+  {
+    "id": "MC-JOIN-nluds-0077",
+    "asdiv_id": "nluds-0077",
+    "grade": 2,
+    "body": "Julia played tag with 12 kids on Monday. She played tag with 7 kids on Tuesday.",
+    "question": "How many kids did she play with altogether?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "RESULT_UNKNOWN",
+    "unknown_position": "RESULT",
+    "answer": "19 (kids)",
+    "formula": "12+7=19",
+    "parameters": {
+      "initial": 12,
+      "change": 7,
+      "result": 19,
+      "unknown_position": "RESULT"
+    },
+    "visual": {
+      "object_label": "kid",
+      "object_plural": "kids",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠",
+      "initial_object_label": "kid",
+      "initial_object_code": "1F7E0",
+      "initial_fallback_emoji": "🟠",
+      "change_object_label": "kid",
+      "change_object_code": "1F7E0",
+      "change_fallback_emoji": "🟠",
+      "part_a_label": "Monday",
+      "part_b_label": "Tuesday"
+    },
+    "interaction": "JOIN",
+    "visible_roles": [
+      "INITIAL",
+      "CHANGE"
+    ],
+    "hidden_role": "RESULT"
+  },
+  {
+    "id": "MC-JOIN-nluds-0310",
+    "asdiv_id": "nluds-0310",
+    "grade": 3,
+    "body": "Before his friends gave him more stamps, Simon initially had 10 stamps. If he now has 20 stamps,",
+    "question": "how many stamps did he receive from his friends?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "CHANGE_UNKNOWN",
+    "unknown_position": "CHANGE",
+    "answer": "10 (stamps)",
+    "formula": "20-10=10",
+    "parameters": {
+      "initial": 10,
+      "change": 10,
+      "result": 20,
+      "unknown_position": "CHANGE"
+    },
+    "visual": {
+      "object_label": "friend",
+      "object_plural": "friends",
+      "object_code": "1F9D1",
+      "fallback_emoji": "🧑",
+      "initial_object_label": "friend",
+      "initial_object_code": "1F9D1",
+      "initial_fallback_emoji": "🧑",
+      "change_object_label": "friend",
+      "change_object_code": "1F9D1",
+      "change_fallback_emoji": "🧑"
+    },
+    "interaction": "JOIN",
+    "visible_roles": [
+      "INITIAL",
+      "RESULT"
+    ],
+    "hidden_role": "CHANGE"
+  },
+  {
+    "id": "MC-JOIN-nluds-0008",
+    "asdiv_id": "nluds-0008",
+    "grade": 1,
+    "body": "15 plums were in the basket. More plums were added to the basket. Now there are 19 plums.",
+    "question": "How many plums were added to the basket?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "CHANGE_UNKNOWN",
+    "unknown_position": "CHANGE",
+    "answer": "4 (plums)",
+    "formula": "19-15=4",
+    "parameters": {
+      "initial": 15,
+      "change": 4,
+      "result": 19,
+      "unknown_position": "CHANGE"
+    },
+    "visual": {
+      "object_label": "counter",
+      "object_plural": "counters",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠",
+      "initial_object_label": "counter",
+      "initial_object_code": "1F7E0",
+      "initial_fallback_emoji": "🟠",
+      "change_object_label": "counter",
+      "change_object_code": "1F7E0",
+      "change_fallback_emoji": "🟠"
+    },
+    "interaction": "JOIN",
+    "visible_roles": [
+      "INITIAL",
+      "RESULT"
+    ],
+    "hidden_role": "CHANGE"
+  },
+  {
+    "id": "MC-JOIN-nluds-0108",
+    "asdiv_id": "nluds-0108",
+    "grade": 2,
+    "body": "Robin had 11 pieces of gum. Her brother gave her some more pieces. Now Robin has 20 pieces in all.",
+    "question": "How many pieces of gum did Robin's brother give her?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "CHANGE_UNKNOWN",
+    "unknown_position": "CHANGE",
+    "answer": "9 (pieces)",
+    "formula": "20-11=9",
+    "parameters": {
+      "initial": 11,
+      "change": 9,
+      "result": 20,
+      "unknown_position": "CHANGE"
+    },
+    "visual": {
+      "object_label": "piece of gum",
+      "object_plural": "pieces of gum",
+      "object_code": "1F36C",
+      "fallback_emoji": "🍬",
+      "initial_object_label": "piece of gum",
+      "initial_object_code": "1F36C",
+      "initial_fallback_emoji": "🍬",
+      "change_object_label": "piece of gum",
+      "change_object_code": "1F36C",
+      "change_fallback_emoji": "🍬"
+    },
+    "interaction": "JOIN",
+    "visible_roles": [
+      "INITIAL",
+      "RESULT"
+    ],
+    "hidden_role": "CHANGE"
+  },
+  {
+    "id": "MC-JOIN-nluds-0527",
+    "asdiv_id": "nluds-0527",
+    "grade": 3,
+    "body": "James had 13 stickers. He got some more stickers for his birthday. Then he had 20 stickers.",
+    "question": "How many stickers did James get for his birthday?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "CHANGE_UNKNOWN",
+    "unknown_position": "CHANGE",
+    "answer": "7 (stickers)",
+    "formula": "20-13=7",
+    "parameters": {
+      "initial": 13,
+      "change": 7,
+      "result": 20,
+      "unknown_position": "CHANGE"
+    },
+    "visual": {
+      "object_label": "counter",
+      "object_plural": "counters",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠",
+      "initial_object_label": "counter",
+      "initial_object_code": "1F7E0",
+      "initial_fallback_emoji": "🟠",
+      "change_object_label": "counter",
+      "change_object_code": "1F7E0",
+      "change_fallback_emoji": "🟠"
+    },
+    "interaction": "JOIN",
+    "visible_roles": [
+      "INITIAL",
+      "RESULT"
+    ],
+    "hidden_role": "CHANGE"
+  },
+  {
+    "id": "MC-JOIN-nluds-0956",
+    "asdiv_id": "nluds-0956",
+    "grade": 3,
+    "body": "Andy had 14 baseball cards. His dad gave him some more. Then Andy had 20 baseball cards.",
+    "question": "How many baseball cards did Andy get from his dad?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "CHANGE_UNKNOWN",
+    "unknown_position": "CHANGE",
+    "answer": "6 (baseball cards)",
+    "formula": "20-14=6",
+    "parameters": {
+      "initial": 14,
+      "change": 6,
+      "result": 20,
+      "unknown_position": "CHANGE"
+    },
+    "visual": {
+      "object_label": "ball",
+      "object_plural": "balls",
+      "object_code": "26BD",
+      "fallback_emoji": "⚽",
+      "initial_object_label": "ball",
+      "initial_object_code": "26BD",
+      "initial_fallback_emoji": "⚽",
+      "change_object_label": "ball",
+      "change_object_code": "26BD",
+      "change_fallback_emoji": "⚽"
+    },
+    "interaction": "JOIN",
+    "visible_roles": [
+      "INITIAL",
+      "RESULT"
+    ],
+    "hidden_role": "CHANGE"
+  },
+  {
+    "id": "MC-JOIN-nluds-1030",
+    "asdiv_id": "nluds-1030",
+    "grade": 3,
+    "body": "Matthew and Billie went apple picking. Matthew found 9 big, red apples. Billie found some as well. Together they found 19 apples.",
+    "question": "How many apples did Billie find?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "CHANGE_UNKNOWN",
+    "unknown_position": "CHANGE",
+    "answer": "10 (apples)",
+    "formula": "19-9=10",
+    "parameters": {
+      "initial": 9,
+      "change": 10,
+      "result": 19,
+      "unknown_position": "CHANGE"
+    },
+    "visual": {
+      "object_label": "apple",
+      "object_plural": "apples",
+      "object_code": "1F34E",
+      "fallback_emoji": "🍎",
+      "initial_object_label": "apple",
+      "initial_object_code": "1F34E",
+      "initial_fallback_emoji": "🍎",
+      "change_object_label": "apple",
+      "change_object_code": "1F34E",
+      "change_fallback_emoji": "🍎"
+    },
+    "interaction": "JOIN",
+    "visible_roles": [
+      "INITIAL",
+      "RESULT"
+    ],
+    "hidden_role": "CHANGE"
+  },
+  {
+    "id": "MC-REMOVE-nluds-0022",
+    "asdiv_id": "nluds-0022",
+    "grade": 1,
+    "body": "You have 7 cookies and you ate 2 of them.",
+    "question": "How many cookies do you have left?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "RESULT_UNKNOWN",
+    "unknown_position": "RESULT",
+    "answer": "5 (cookies)",
+    "formula": "7-2=5",
+    "parameters": {
+      "initial": 7,
+      "change": 2,
+      "result": 5,
+      "unknown_position": "RESULT"
+    },
+    "visual": {
+      "object_label": "cookie",
+      "object_plural": "cookies",
+      "object_code": "1F36A",
+      "fallback_emoji": "🍪"
+    },
+    "interaction": "REMOVE",
+    "visible_roles": [
+      "INITIAL",
+      "CHANGE"
+    ],
+    "hidden_role": "RESULT"
+  },
+  {
+    "id": "MC-REMOVE-nluds-0024",
+    "asdiv_id": "nluds-0024",
+    "grade": 1,
+    "body": "4 birds are sitting on a branch. 1 flies away.",
+    "question": "How many birds are left on the branch?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "RESULT_UNKNOWN",
+    "unknown_position": "RESULT",
+    "answer": "3 (birds)",
+    "formula": "4-1=3",
+    "parameters": {
+      "initial": 4,
+      "change": 1,
+      "result": 3,
+      "unknown_position": "RESULT"
+    },
+    "visual": {
+      "object_label": "bird",
+      "object_plural": "birds",
+      "object_code": "1F426",
+      "fallback_emoji": "🐦"
+    },
+    "interaction": "REMOVE",
+    "visible_roles": [
+      "INITIAL",
+      "CHANGE"
+    ],
+    "hidden_role": "RESULT"
+  },
+  {
+    "id": "MC-REMOVE-nluds-0025",
+    "asdiv_id": "nluds-0025",
+    "grade": 1,
+    "body": "3 raccoons are playing in the woods. 2 go home to eat dinner.",
+    "question": "How many raccoons are left in the woods?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "RESULT_UNKNOWN",
+    "unknown_position": "RESULT",
+    "answer": "1 (raccoons)",
+    "formula": "3-2=1",
+    "parameters": {
+      "initial": 3,
+      "change": 2,
+      "result": 1,
+      "unknown_position": "RESULT"
+    },
+    "visual": {
+      "object_label": "raccoon",
+      "object_plural": "raccoons",
+      "object_code": "1F99D",
+      "fallback_emoji": "🦝"
+    },
+    "interaction": "REMOVE",
+    "visible_roles": [
+      "INITIAL",
+      "CHANGE"
+    ],
+    "hidden_role": "RESULT"
+  },
+  {
+    "id": "MC-REMOVE-nluds-0054",
+    "asdiv_id": "nluds-0054",
+    "grade": 1,
+    "body": "Millie had 9 bracelets. She lost 2 of them.",
+    "question": "How many bracelets does Millie have left?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "RESULT_UNKNOWN",
+    "unknown_position": "RESULT",
+    "answer": "7 (bracelets)",
+    "formula": "9-2=7",
+    "parameters": {
+      "initial": 9,
+      "change": 2,
+      "result": 7,
+      "unknown_position": "RESULT"
+    },
+    "visual": {
+      "object_label": "counter",
+      "object_plural": "counters",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠"
+    },
+    "interaction": "REMOVE",
+    "visible_roles": [
+      "INITIAL",
+      "CHANGE"
+    ],
+    "hidden_role": "RESULT"
+  },
+  {
+    "id": "MC-REMOVE-nluds-0055",
+    "asdiv_id": "nluds-0055",
+    "grade": 1,
+    "body": "Sammy has 9 math problems to do for homework. He has already finished 2 of them.",
+    "question": "How many math problems does Sammy have left?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "RESULT_UNKNOWN",
+    "unknown_position": "RESULT",
+    "answer": "7 (math problems)",
+    "formula": "9-2=7",
+    "parameters": {
+      "initial": 9,
+      "change": 2,
+      "result": 7,
+      "unknown_position": "RESULT"
+    },
+    "visual": {
+      "object_label": "counter",
+      "object_plural": "counters",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠"
+    },
+    "interaction": "REMOVE",
+    "visible_roles": [
+      "INITIAL",
+      "CHANGE"
+    ],
+    "hidden_role": "RESULT"
+  },
+  {
+    "id": "MC-REMOVE-nluds-0056",
+    "asdiv_id": "nluds-0056",
+    "grade": 1,
+    "body": "There were 10 students riding on the school bus. At the first stop, 3 students got off of the bus.",
+    "question": "How many students are left on the bus?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "RESULT_UNKNOWN",
+    "unknown_position": "RESULT",
+    "answer": "7 (students)",
+    "formula": "10-3=7",
+    "parameters": {
+      "initial": 10,
+      "change": 3,
+      "result": 7,
+      "unknown_position": "RESULT"
+    },
+    "visual": {
+      "object_label": "student",
+      "object_plural": "students",
+      "object_code": "1F9D1",
+      "fallback_emoji": "🧑"
+    },
+    "interaction": "REMOVE",
+    "visible_roles": [
+      "INITIAL",
+      "CHANGE"
+    ],
+    "hidden_role": "RESULT"
+  },
+  {
+    "id": "MC-REMOVE-nluds-0057",
+    "asdiv_id": "nluds-0057",
+    "grade": 1,
+    "body": "There were 8 ducks swimming in the pond. 3 ducks flew away.",
+    "question": "How many ducks are still swimming in the pond?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "RESULT_UNKNOWN",
+    "unknown_position": "RESULT",
+    "answer": "5 (ducks)",
+    "formula": "8-3=5",
+    "parameters": {
+      "initial": 8,
+      "change": 3,
+      "result": 5,
+      "unknown_position": "RESULT"
+    },
+    "visual": {
+      "object_label": "counter",
+      "object_plural": "counters",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠"
+    },
+    "interaction": "REMOVE",
+    "visible_roles": [
+      "INITIAL",
+      "CHANGE"
+    ],
+    "hidden_role": "RESULT"
+  },
+  {
+    "id": "MC-REMOVE-nluds-1722",
+    "asdiv_id": "nluds-1722",
+    "grade": 3,
+    "body": "Emily was selling some of her old toys at a garage sale. She started out with seven toys and sold three of them.",
+    "question": "How many does she have left?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "RESULT_UNKNOWN",
+    "unknown_position": "RESULT",
+    "answer": "4 (toys)",
+    "formula": "7-3=4",
+    "parameters": {
+      "initial": 7,
+      "change": 3,
+      "result": 4,
+      "unknown_position": "RESULT"
+    },
+    "visual": {
+      "object_label": "counter",
+      "object_plural": "counters",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠"
+    },
+    "interaction": "REMOVE",
+    "visible_roles": [
+      "INITIAL",
+      "CHANGE"
+    ],
+    "hidden_role": "RESULT"
+  },
+  {
+    "id": "MC-REMOVE-nluds-1724",
+    "asdiv_id": "nluds-1724",
+    "grade": 3,
+    "body": "A pet store had seven Siamese cats. If they sold four of them,",
+    "question": "how many cats did they still have?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "RESULT_UNKNOWN",
+    "unknown_position": "RESULT",
+    "answer": "3 (cats)",
+    "formula": "7-4=3",
+    "parameters": {
+      "initial": 7,
+      "change": 4,
+      "result": 3,
+      "unknown_position": "RESULT"
+    },
+    "visual": {
+      "object_label": "counter",
+      "object_plural": "counters",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠"
+    },
+    "interaction": "REMOVE",
+    "visible_roles": [
+      "INITIAL",
+      "CHANGE"
+    ],
+    "hidden_role": "RESULT"
+  },
+  {
+    "id": "MC-REMOVE-nluds-1726",
+    "asdiv_id": "nluds-1726",
+    "grade": 3,
+    "body": "Cody had nine old video games he wanted to get rid of. If he gave his friend four of the games,",
+    "question": "how many does he still have?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "RESULT_UNKNOWN",
+    "unknown_position": "RESULT",
+    "answer": "5 (video games)",
+    "formula": "9-4=5",
+    "parameters": {
+      "initial": 9,
+      "change": 4,
+      "result": 5,
+      "unknown_position": "RESULT"
+    },
+    "visual": {
+      "object_label": "friend",
+      "object_plural": "friends",
+      "object_code": "1F9D1",
+      "fallback_emoji": "🧑"
+    },
+    "interaction": "REMOVE",
+    "visible_roles": [
+      "INITIAL",
+      "CHANGE"
+    ],
+    "hidden_role": "RESULT"
+  },
+  {
+    "id": "MC-REMOVE-nluds-1728",
+    "asdiv_id": "nluds-1728",
+    "grade": 3,
+    "body": "Sam had eleven friends over for his birthday party. Later three of his friends had to go home.",
+    "question": "How many friends were left?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "RESULT_UNKNOWN",
+    "unknown_position": "RESULT",
+    "answer": "8 (friends)",
+    "formula": "11-3=8",
+    "parameters": {
+      "initial": 11,
+      "change": 3,
+      "result": 8,
+      "unknown_position": "RESULT"
+    },
+    "visual": {
+      "object_label": "friend",
+      "object_plural": "friends",
+      "object_code": "1F9D1",
+      "fallback_emoji": "🧑"
+    },
+    "interaction": "REMOVE",
+    "visible_roles": [
+      "INITIAL",
+      "CHANGE"
+    ],
+    "hidden_role": "RESULT"
+  },
+  {
+    "id": "MC-REMOVE-nluds-1737",
+    "asdiv_id": "nluds-1737",
+    "grade": 3,
+    "body": "Emily was helping her mom pick apples from the tree in their front yard. Together they picked fourteen apples. Six of the apples were not ripe.",
+    "question": "How many ripe apples did they pick?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "RESULT_UNKNOWN",
+    "unknown_position": "RESULT",
+    "answer": "8 (ripe apples)",
+    "formula": "14-6=8",
+    "parameters": {
+      "initial": 14,
+      "change": 6,
+      "result": 8,
+      "unknown_position": "RESULT"
+    },
+    "visual": {
+      "object_label": "apple",
+      "object_plural": "apples",
+      "object_code": "1F34E",
+      "fallback_emoji": "🍎"
+    },
+    "interaction": "REMOVE",
+    "visible_roles": [
+      "INITIAL",
+      "CHANGE"
+    ],
+    "hidden_role": "RESULT"
+  },
+  {
+    "id": "MC-REMOVE-nluds-1742",
+    "asdiv_id": "nluds-1742",
+    "grade": 3,
+    "body": "A two-story house has 10 bedrooms in total. The second floor has 2 bedrooms.",
+    "question": "How many bedrooms are on the first floor?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "RESULT_UNKNOWN",
+    "unknown_position": "RESULT",
+    "answer": "8 (bedrooms)",
+    "formula": "10-2=8",
+    "parameters": {
+      "initial": 10,
+      "change": 2,
+      "result": 8,
+      "unknown_position": "RESULT"
+    },
+    "visual": {
+      "object_label": "counter",
+      "object_plural": "counters",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠"
+    },
+    "interaction": "REMOVE",
+    "visible_roles": [
+      "INITIAL",
+      "CHANGE"
+    ],
+    "hidden_role": "RESULT"
+  },
+  {
+    "id": "MC-REMOVE-nluds-1768",
+    "asdiv_id": "nluds-1768",
+    "grade": 3,
+    "body": "A chef had five potatoes to make fries with, but he only used three of them.",
+    "question": "How many potatoes does he still have?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "RESULT_UNKNOWN",
+    "unknown_position": "RESULT",
+    "answer": "2 (potatoes)",
+    "formula": "5-3=2",
+    "parameters": {
+      "initial": 5,
+      "change": 3,
+      "result": 2,
+      "unknown_position": "RESULT"
+    },
+    "visual": {
+      "object_label": "counter",
+      "object_plural": "counters",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠"
+    },
+    "interaction": "REMOVE",
+    "visible_roles": [
+      "INITIAL",
+      "CHANGE"
+    ],
+    "hidden_role": "RESULT"
+  },
+  {
+    "id": "MC-REMOVE-nluds-1766",
+    "asdiv_id": "nluds-1766",
+    "grade": 3,
+    "body": "Paige sent out fifteen birthday party invitations. If nine people showed up,",
+    "question": "how many people didn't come?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "CHANGE_UNKNOWN",
+    "unknown_position": "CHANGE",
+    "answer": "6 (people)",
+    "formula": "15-9=6",
+    "parameters": {
+      "initial": 15,
+      "change": 6,
+      "result": 9,
+      "unknown_position": "CHANGE"
+    },
+    "visual": {
+      "object_label": "counter",
+      "object_plural": "counters",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠"
+    },
+    "interaction": "REMOVE",
+    "visible_roles": [
+      "INITIAL",
+      "RESULT"
+    ],
+    "hidden_role": "CHANGE"
+  },
+  {
+    "id": "MC-REMOVE-nluds-1838",
+    "asdiv_id": "nluds-1838",
+    "grade": 4,
+    "body": "Oliver was yard sale shopping. He ended up buying 11 video games, but only 6 of them worked.",
+    "question": "How many bad games did he buy?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "CHANGE_UNKNOWN",
+    "unknown_position": "CHANGE",
+    "answer": "5 (bad games)",
+    "formula": "11-6=5",
+    "parameters": {
+      "initial": 11,
+      "change": 5,
+      "result": 6,
+      "unknown_position": "CHANGE"
+    },
+    "visual": {
+      "object_label": "counter",
+      "object_plural": "counters",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠"
+    },
+    "interaction": "REMOVE",
+    "visible_roles": [
+      "INITIAL",
+      "RESULT"
+    ],
+    "hidden_role": "CHANGE"
+  },
+  {
+    "id": "MC-REMOVE-nluds-1844",
+    "asdiv_id": "nluds-1844",
+    "grade": 1,
+    "body": "Debby had twelve pieces of candy. After eating some, she had three pieces.",
+    "question": "How many pieces did Debby eat?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "CHANGE_UNKNOWN",
+    "unknown_position": "CHANGE",
+    "answer": "9 (pieces)",
+    "formula": "12-3=9",
+    "parameters": {
+      "initial": 12,
+      "change": 9,
+      "result": 3,
+      "unknown_position": "CHANGE"
+    },
+    "visual": {
+      "object_label": "candy",
+      "object_plural": "candies",
+      "object_code": "1F36C",
+      "fallback_emoji": "🍬"
+    },
+    "interaction": "REMOVE",
+    "visible_roles": [
+      "INITIAL",
+      "RESULT"
+    ],
+    "hidden_role": "CHANGE"
+  },
+  {
+    "id": "MC-REMOVE-nluds-1861",
+    "asdiv_id": "nluds-1861",
+    "grade": 1,
+    "body": "Paige had eleven pencils. After using some she had four left.",
+    "question": "How many did she use?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "CHANGE_UNKNOWN",
+    "unknown_position": "CHANGE",
+    "answer": "7 (pencils)",
+    "formula": "11-4=7",
+    "parameters": {
+      "initial": 11,
+      "change": 7,
+      "result": 4,
+      "unknown_position": "CHANGE"
+    },
+    "visual": {
+      "object_label": "pencil",
+      "object_plural": "pencils",
+      "object_code": "270F",
+      "fallback_emoji": "✏️"
+    },
+    "interaction": "REMOVE",
+    "visible_roles": [
+      "INITIAL",
+      "RESULT"
+    ],
+    "hidden_role": "CHANGE"
+  },
+  {
+    "id": "MC-REMOVE-nluds-1877",
+    "asdiv_id": "nluds-1877",
+    "grade": 1,
+    "body": "For a party Cody bought eleven cupcakes. After the party he had two left.",
+    "question": "How many were eaten at the party?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "CHANGE_UNKNOWN",
+    "unknown_position": "CHANGE",
+    "answer": "9 (cupcakes)",
+    "formula": "11-2=9",
+    "parameters": {
+      "initial": 11,
+      "change": 9,
+      "result": 2,
+      "unknown_position": "CHANGE"
+    },
+    "visual": {
+      "object_label": "counter",
+      "object_plural": "counters",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠"
+    },
+    "interaction": "REMOVE",
+    "visible_roles": [
+      "INITIAL",
+      "RESULT"
+    ],
+    "hidden_role": "CHANGE"
+  },
+  {
+    "id": "MC-REMOVE-nluds-1880",
+    "asdiv_id": "nluds-1880",
+    "grade": 1,
+    "body": "Sally memorized eight poems. After some time she could only recite three of them.",
+    "question": "How many poems did she forget?",
+    "topic": "ADDITION_SUBTRACTION",
+    "subtype": "CHANGE_UNKNOWN",
+    "unknown_position": "CHANGE",
+    "answer": "5 (poems)",
+    "formula": "8-3=5",
+    "parameters": {
+      "initial": 8,
+      "change": 5,
+      "result": 3,
+      "unknown_position": "CHANGE"
+    },
+    "visual": {
+      "object_label": "counter",
+      "object_plural": "counters",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠"
+    },
+    "interaction": "REMOVE",
+    "visible_roles": [
+      "INITIAL",
+      "RESULT"
+    ],
+    "hidden_role": "CHANGE"
+  },
+  {
+    "id": "MC-EQUAL_GROUPS-nluds-0179",
+    "asdiv_id": "nluds-0179",
+    "grade": 2,
+    "body": "Kim has 4 cousins. She gives 5 pieces of gum to each cousin.",
+    "question": "How many pieces of gum does she give altogether?",
+    "topic": "EQUAL_GROUPS",
+    "subtype": "TOTAL_UNKNOWN",
+    "unknown_position": "TOTAL",
+    "answer": "20 (pieces of gum)",
+    "formula": "4*5=20",
+    "parameters": {
+      "group_count": 4,
+      "group_size": 5,
+      "total": 20,
+      "unknown_position": "TOTAL"
+    },
+    "visual": {
+      "object_label": "piece of gum",
+      "object_plural": "pieces of gum",
+      "object_code": "1F36C",
+      "fallback_emoji": "🍬",
+      "group_label": "cousin",
+      "group_emoji": "🧒"
+    },
+    "interaction": "EQUAL_GROUPS",
+    "visible_roles": [
+      "GROUP_COUNT",
+      "GROUP_SIZE"
+    ],
+    "hidden_role": "TOTAL"
+  },
+  {
+    "id": "MC-EQUAL_GROUPS-nluds-0040",
+    "asdiv_id": "nluds-0040",
+    "grade": 1,
+    "body": "Mrs. Hilt saw 3 bugs eat two flowers each.",
+    "question": "How many flowers total did the bugs eat?",
+    "topic": "EQUAL_GROUPS",
+    "subtype": "TOTAL_UNKNOWN",
+    "unknown_position": "TOTAL",
+    "answer": "6 (flowers)",
+    "formula": "2+2+2=6",
+    "parameters": {
+      "group_count": 3,
+      "group_size": 2,
+      "total": 6,
+      "unknown_position": "TOTAL"
+    },
+    "visual": {
+      "object_label": "flower",
+      "object_plural": "flowers",
+      "object_code": "1F33C",
+      "fallback_emoji": "🌼",
+      "group_label": "group",
+      "group_emoji": "📦"
+    },
+    "interaction": "EQUAL_GROUPS",
+    "visible_roles": [
+      "GROUP_COUNT",
+      "GROUP_SIZE"
+    ],
+    "hidden_role": "TOTAL"
+  },
+  {
+    "id": "MC-EQUAL_GROUPS-nluds-0088",
+    "asdiv_id": "nluds-0088",
+    "grade": 2,
+    "body": "Mrs. Heine is buying Valentine's Day treats for her 2 dogs. If she wants to buy them 3 heart biscuits each,",
+    "question": "how many biscuits does she need to buy?",
+    "topic": "EQUAL_GROUPS",
+    "subtype": "TOTAL_UNKNOWN",
+    "unknown_position": "TOTAL",
+    "answer": "6 (biscuits)",
+    "formula": "3+3=6",
+    "parameters": {
+      "group_count": 2,
+      "group_size": 3,
+      "total": 6,
+      "unknown_position": "TOTAL"
+    },
+    "visual": {
+      "object_label": "biscuit",
+      "object_plural": "biscuits",
+      "object_code": "1F36A",
+      "fallback_emoji": "🍪",
+      "group_label": "dog",
+      "group_emoji": "🐕"
+    },
+    "interaction": "EQUAL_GROUPS",
+    "visible_roles": [
+      "GROUP_COUNT",
+      "GROUP_SIZE"
+    ],
+    "hidden_role": "TOTAL"
+  },
+  {
+    "id": "MC-EQUAL_GROUPS-nluds-0181",
+    "asdiv_id": "nluds-0181",
+    "grade": 2,
+    "body": "5 boats are in the lake. Each boat has 3 people.",
+    "question": "How many people are on boats in the lake?",
+    "topic": "EQUAL_GROUPS",
+    "subtype": "TOTAL_UNKNOWN",
+    "unknown_position": "TOTAL",
+    "answer": "15 (people)",
+    "formula": "5*3=15",
+    "parameters": {
+      "group_count": 5,
+      "group_size": 3,
+      "total": 15,
+      "unknown_position": "TOTAL"
+    },
+    "visual": {
+      "object_label": "counter",
+      "object_plural": "counters",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠",
+      "group_label": "group",
+      "group_emoji": "📦"
+    },
+    "interaction": "EQUAL_GROUPS",
+    "visible_roles": [
+      "GROUP_COUNT",
+      "GROUP_SIZE"
+    ],
+    "hidden_role": "TOTAL"
+  },
+  {
+    "id": "MC-EQUAL_GROUPS-nluds-0374",
+    "asdiv_id": "nluds-0374",
+    "grade": 3,
+    "body": "Andrew's 4 friends decided to bring food as well. If each of them brought 4 slices of pizza,",
+    "question": "how many slices of pizza do they have in total?",
+    "topic": "EQUAL_GROUPS",
+    "subtype": "TOTAL_UNKNOWN",
+    "unknown_position": "TOTAL",
+    "answer": "16 (slices of pizza)",
+    "formula": "4*4=16",
+    "parameters": {
+      "group_count": 4,
+      "group_size": 4,
+      "total": 16,
+      "unknown_position": "TOTAL"
+    },
+    "visual": {
+      "object_label": "pizza",
+      "object_plural": "pizzas",
+      "object_code": "1F355",
+      "fallback_emoji": "🍕",
+      "group_label": "friend",
+      "group_emoji": "🧑"
+    },
+    "interaction": "EQUAL_GROUPS",
+    "visible_roles": [
+      "GROUP_COUNT",
+      "GROUP_SIZE"
+    ],
+    "hidden_role": "TOTAL"
+  },
+  {
+    "id": "MC-EQUAL_GROUPS-nluds-0380",
+    "asdiv_id": "nluds-0380",
+    "grade": 3,
+    "body": "At the end of the party, Mona gave away some souvenirs to her 6 closest friends. If each of them received 2 souvenir items,",
+    "question": "how many souvenirs did Mona give away?",
+    "topic": "EQUAL_GROUPS",
+    "subtype": "TOTAL_UNKNOWN",
+    "unknown_position": "TOTAL",
+    "answer": "12 (souvenirs)",
+    "formula": "6*2=12",
+    "parameters": {
+      "group_count": 6,
+      "group_size": 2,
+      "total": 12,
+      "unknown_position": "TOTAL"
+    },
+    "visual": {
+      "object_label": "friend",
+      "object_plural": "friends",
+      "object_code": "1F9D1",
+      "fallback_emoji": "🧑",
+      "group_label": "group",
+      "group_emoji": "📦"
+    },
+    "interaction": "EQUAL_GROUPS",
+    "visible_roles": [
+      "GROUP_COUNT",
+      "GROUP_SIZE"
+    ],
+    "hidden_role": "TOTAL"
+  },
+  {
+    "id": "MC-EQUAL_GROUPS-nluds-1755",
+    "asdiv_id": "nluds-1755",
+    "grade": 3,
+    "body": "Olivia was collecting cans for recycling. She had four bags with five cans inside each bag.",
+    "question": "How many cans did she have?",
+    "topic": "EQUAL_GROUPS",
+    "subtype": "TOTAL_UNKNOWN",
+    "unknown_position": "TOTAL",
+    "answer": "20 (cans)",
+    "formula": "4*5=20",
+    "parameters": {
+      "group_count": 4,
+      "group_size": 5,
+      "total": 20,
+      "unknown_position": "TOTAL"
+    },
+    "visual": {
+      "object_label": "bag",
+      "object_plural": "bags",
+      "object_code": "1F6CD",
+      "fallback_emoji": "🛍️",
+      "group_label": "group",
+      "group_emoji": "📦"
+    },
+    "interaction": "EQUAL_GROUPS",
+    "visible_roles": [
+      "GROUP_COUNT",
+      "GROUP_SIZE"
+    ],
+    "hidden_role": "TOTAL"
+  },
+  {
+    "id": "MC-EQUAL_GROUPS-nluds-1767",
+    "asdiv_id": "nluds-1767",
+    "grade": 3,
+    "body": "Paul was reading through his favorite book series. Each week he read four different books.",
+    "question": "How many books would he have read through after five weeks?",
+    "topic": "EQUAL_GROUPS",
+    "subtype": "TOTAL_UNKNOWN",
+    "unknown_position": "TOTAL",
+    "answer": "20 (books)",
+    "formula": "4*5=20",
+    "parameters": {
+      "group_count": 5,
+      "group_size": 4,
+      "total": 20,
+      "unknown_position": "TOTAL"
+    },
+    "visual": {
+      "object_label": "book",
+      "object_plural": "books",
+      "object_code": "1F4D8",
+      "fallback_emoji": "📘",
+      "group_label": "group",
+      "group_emoji": "📦"
+    },
+    "interaction": "EQUAL_GROUPS",
+    "visible_roles": [
+      "GROUP_COUNT",
+      "GROUP_SIZE"
+    ],
+    "hidden_role": "TOTAL"
+  },
+  {
+    "id": "MC-EQUAL_GROUPS-nluds-1771",
+    "asdiv_id": "nluds-1771",
+    "grade": 4,
+    "body": "Vanessa had to complete 3 pages of homework. Each page had 4 problems on it.",
+    "question": "How many problems did she have to complete total?",
+    "topic": "EQUAL_GROUPS",
+    "subtype": "TOTAL_UNKNOWN",
+    "unknown_position": "TOTAL",
+    "answer": "12 (problems)",
+    "formula": "3*4=12",
+    "parameters": {
+      "group_count": 3,
+      "group_size": 4,
+      "total": 12,
+      "unknown_position": "TOTAL"
+    },
+    "visual": {
+      "object_label": "counter",
+      "object_plural": "counters",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠",
+      "group_label": "group",
+      "group_emoji": "📦"
+    },
+    "interaction": "EQUAL_GROUPS",
+    "visible_roles": [
+      "GROUP_COUNT",
+      "GROUP_SIZE"
+    ],
+    "hidden_role": "TOTAL"
+  },
+  {
+    "id": "MC-EQUAL_GROUPS-nluds-1824",
+    "asdiv_id": "nluds-1824",
+    "grade": 4,
+    "body": "Paige had 4 dresser drawers. Each drawer could hold 2 pieces of clothing.",
+    "question": "How many pieces of clothing could the four drawers hold?",
+    "topic": "EQUAL_GROUPS",
+    "subtype": "TOTAL_UNKNOWN",
+    "unknown_position": "TOTAL",
+    "answer": "8 (pieces of clothing)",
+    "formula": "2*4=8",
+    "parameters": {
+      "group_count": 4,
+      "group_size": 2,
+      "total": 8,
+      "unknown_position": "TOTAL"
+    },
+    "visual": {
+      "object_label": "counter",
+      "object_plural": "counters",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠",
+      "group_label": "group",
+      "group_emoji": "📦"
+    },
+    "interaction": "EQUAL_GROUPS",
+    "visible_roles": [
+      "GROUP_COUNT",
+      "GROUP_SIZE"
+    ],
+    "hidden_role": "TOTAL"
+  },
+  {
+    "id": "MC-EQUAL_GROUPS-nluds-0130",
+    "asdiv_id": "nluds-0130",
+    "grade": 2,
+    "body": "Each CD rack holds 6 CDs. A shelf can hold four racks.",
+    "question": "How many total CDs can fit on the shelf?",
+    "topic": "EQUAL_GROUPS",
+    "subtype": "TOTAL_UNKNOWN",
+    "unknown_position": "TOTAL",
+    "answer": "24 (CDs)",
+    "formula": "4*6=24",
+    "parameters": {
+      "group_count": 4,
+      "group_size": 6,
+      "total": 24,
+      "unknown_position": "TOTAL"
+    },
+    "visual": {
+      "object_label": "counter",
+      "object_plural": "counters",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠",
+      "group_label": "group",
+      "group_emoji": "📦"
+    },
+    "interaction": "EQUAL_GROUPS",
+    "visible_roles": [
+      "GROUP_COUNT",
+      "GROUP_SIZE"
+    ],
+    "hidden_role": "TOTAL"
+  },
+  {
+    "id": "MC-EQUAL_GROUPS-nluds-0377",
+    "asdiv_id": "nluds-0377",
+    "grade": 3,
+    "body": "Her mom also baked some cookies. If she baked 6 pans of cookies and there are 4 cookies per pan,",
+    "question": "how many cookies did her mom bake for her birthday?",
+    "topic": "EQUAL_GROUPS",
+    "subtype": "TOTAL_UNKNOWN",
+    "unknown_position": "TOTAL",
+    "answer": "24 (cookies)",
+    "formula": "6*4=24",
+    "parameters": {
+      "group_count": 6,
+      "group_size": 4,
+      "total": 24,
+      "unknown_position": "TOTAL"
+    },
+    "visual": {
+      "object_label": "cookie",
+      "object_plural": "cookies",
+      "object_code": "1F36A",
+      "fallback_emoji": "🍪",
+      "group_label": "group",
+      "group_emoji": "📦"
+    },
+    "interaction": "EQUAL_GROUPS",
+    "visible_roles": [
+      "GROUP_COUNT",
+      "GROUP_SIZE"
+    ],
+    "hidden_role": "TOTAL"
+  },
+  {
+    "id": "MC-EQUAL_GROUPS-nluds-0383",
+    "asdiv_id": "nluds-0383",
+    "grade": 3,
+    "body": "For the walls of the house, John would use 3 large planks of wood. Each plank of wood needs 6 nails to be secured.",
+    "question": "How many nails does John need for the wall?",
+    "topic": "EQUAL_GROUPS",
+    "subtype": "TOTAL_UNKNOWN",
+    "unknown_position": "TOTAL",
+    "answer": "18 (nails)",
+    "formula": "3*6=18",
+    "parameters": {
+      "group_count": 3,
+      "group_size": 6,
+      "total": 18,
+      "unknown_position": "TOTAL"
+    },
+    "visual": {
+      "object_label": "counter",
+      "object_plural": "counters",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠",
+      "group_label": "group",
+      "group_emoji": "📦"
+    },
+    "interaction": "EQUAL_GROUPS",
+    "visible_roles": [
+      "GROUP_COUNT",
+      "GROUP_SIZE"
+    ],
+    "hidden_role": "TOTAL"
+  },
+  {
+    "id": "MC-EQUAL_GROUPS-nluds-0384",
+    "asdiv_id": "nluds-0384",
+    "grade": 3,
+    "body": "For the roof, John would need 2 sets of metal bars for support. If each set has 6 metal bars,",
+    "question": "how many metal bars are there in all?",
+    "topic": "EQUAL_GROUPS",
+    "subtype": "TOTAL_UNKNOWN",
+    "unknown_position": "TOTAL",
+    "answer": "12 (metal bars)",
+    "formula": "2*6=12",
+    "parameters": {
+      "group_count": 2,
+      "group_size": 6,
+      "total": 12,
+      "unknown_position": "TOTAL"
+    },
+    "visual": {
+      "object_label": "counter",
+      "object_plural": "counters",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠",
+      "group_label": "group",
+      "group_emoji": "📦"
+    },
+    "interaction": "EQUAL_GROUPS",
+    "visible_roles": [
+      "GROUP_COUNT",
+      "GROUP_SIZE"
+    ],
+    "hidden_role": "TOTAL"
+  },
+  {
+    "id": "MC-EQUAL_GROUPS-nluds-0387",
+    "asdiv_id": "nluds-0387",
+    "grade": 3,
+    "body": "Each bus has six rows of seats, and each row can seat 3 children.",
+    "question": "How many children can each bus accommodate?",
+    "topic": "EQUAL_GROUPS",
+    "subtype": "TOTAL_UNKNOWN",
+    "unknown_position": "TOTAL",
+    "answer": "18 (children)",
+    "formula": "6*3=18",
+    "parameters": {
+      "group_count": 6,
+      "group_size": 3,
+      "total": 18,
+      "unknown_position": "TOTAL"
+    },
+    "visual": {
+      "object_label": "counter",
+      "object_plural": "counters",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠",
+      "group_label": "group",
+      "group_emoji": "📦"
+    },
+    "interaction": "EQUAL_GROUPS",
+    "visible_roles": [
+      "GROUP_COUNT",
+      "GROUP_SIZE"
+    ],
+    "hidden_role": "TOTAL"
+  },
+  {
+    "id": "MC-EQUAL_GROUPS-nluds-0388",
+    "asdiv_id": "nluds-0388",
+    "grade": 3,
+    "body": "At the bird zoo, the kids visited 3 bird cages, with 5 birds in each cage.",
+    "question": "How many birds did the children see in the bird cages?",
+    "topic": "EQUAL_GROUPS",
+    "subtype": "TOTAL_UNKNOWN",
+    "unknown_position": "TOTAL",
+    "answer": "15 (birds)",
+    "formula": "3*5=15",
+    "parameters": {
+      "group_count": 3,
+      "group_size": 5,
+      "total": 15,
+      "unknown_position": "TOTAL"
+    },
+    "visual": {
+      "object_label": "bird",
+      "object_plural": "birds",
+      "object_code": "1F426",
+      "fallback_emoji": "🐦",
+      "group_label": "group",
+      "group_emoji": "📦"
+    },
+    "interaction": "EQUAL_GROUPS",
+    "visible_roles": [
+      "GROUP_COUNT",
+      "GROUP_SIZE"
+    ],
+    "hidden_role": "TOTAL"
+  },
+  {
+    "id": "MC-EQUAL_GROUPS-nluds-0400",
+    "asdiv_id": "nluds-0400",
+    "grade": 3,
+    "body": "Before they end the meeting, Tom counted the total number of robots in his collection. He has 4 sets of robots and each set is composed of 3 robots.",
+    "question": "How many robots does Tom have in his collection?",
+    "topic": "EQUAL_GROUPS",
+    "subtype": "TOTAL_UNKNOWN",
+    "unknown_position": "TOTAL",
+    "answer": "12 (robots)",
+    "formula": "4*3=12",
+    "parameters": {
+      "group_count": 4,
+      "group_size": 3,
+      "total": 12,
+      "unknown_position": "TOTAL"
+    },
+    "visual": {
+      "object_label": "counter",
+      "object_plural": "counters",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠",
+      "group_label": "group",
+      "group_emoji": "📦"
+    },
+    "interaction": "EQUAL_GROUPS",
+    "visible_roles": [
+      "GROUP_COUNT",
+      "GROUP_SIZE"
+    ],
+    "hidden_role": "TOTAL"
+  },
+  {
+    "id": "MC-EQUAL_GROUPS-nluds-0409",
+    "asdiv_id": "nluds-0409",
+    "grade": 3,
+    "body": "Ben was also given 2 trays of eggs to examine. If each tray has 5 eggs,",
+    "question": "how many eggs did Ben examine in total?",
+    "topic": "EQUAL_GROUPS",
+    "subtype": "TOTAL_UNKNOWN",
+    "unknown_position": "TOTAL",
+    "answer": "10 (eggs)",
+    "formula": "2*5=10",
+    "parameters": {
+      "group_count": 2,
+      "group_size": 5,
+      "total": 10,
+      "unknown_position": "TOTAL"
+    },
+    "visual": {
+      "object_label": "egg",
+      "object_plural": "eggs",
+      "object_code": "1F95A",
+      "fallback_emoji": "🥚",
+      "group_label": "group",
+      "group_emoji": "📦"
+    },
+    "interaction": "EQUAL_GROUPS",
+    "visible_roles": [
+      "GROUP_COUNT",
+      "GROUP_SIZE"
+    ],
+    "hidden_role": "TOTAL"
+  },
+  {
+    "id": "MC-EQUAL_GROUPS-nluds-0413",
+    "asdiv_id": "nluds-0413",
+    "grade": 3,
+    "body": "To get to school, Jenny decided to ride the school's double decker bus. The bus has a total of 5 rows of seats and each row has a capacity of 2 kids.",
+    "question": "How many kids in total can ride the school bus?",
+    "topic": "EQUAL_GROUPS",
+    "subtype": "TOTAL_UNKNOWN",
+    "unknown_position": "TOTAL",
+    "answer": "10 (kids)",
+    "formula": "5*2=10",
+    "parameters": {
+      "group_count": 5,
+      "group_size": 2,
+      "total": 10,
+      "unknown_position": "TOTAL"
+    },
+    "visual": {
+      "object_label": "counter",
+      "object_plural": "counters",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠",
+      "group_label": "group",
+      "group_emoji": "📦"
+    },
+    "interaction": "EQUAL_GROUPS",
+    "visible_roles": [
+      "GROUP_COUNT",
+      "GROUP_SIZE"
+    ],
+    "hidden_role": "TOTAL"
+  },
+  {
+    "id": "MC-EQUAL_GROUPS-nluds-0414",
+    "asdiv_id": "nluds-0414",
+    "grade": 3,
+    "body": "When she got to school, she saw that the school is composed of 3 buildings, each having 3 classrooms.",
+    "question": "How many classrooms does the school have?",
+    "topic": "EQUAL_GROUPS",
+    "subtype": "TOTAL_UNKNOWN",
+    "unknown_position": "TOTAL",
+    "answer": "9 (classrooms)",
+    "formula": "3*3=9",
+    "parameters": {
+      "group_count": 3,
+      "group_size": 3,
+      "total": 9,
+      "unknown_position": "TOTAL"
+    },
+    "visual": {
+      "object_label": "counter",
+      "object_plural": "counters",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠",
+      "group_label": "group",
+      "group_emoji": "📦"
+    },
+    "interaction": "EQUAL_GROUPS",
+    "visible_roles": [
+      "GROUP_COUNT",
+      "GROUP_SIZE"
+    ],
+    "hidden_role": "TOTAL"
+  },
+  {
+    "id": "MC-EQUAL_SHARING-nluds-0490",
+    "asdiv_id": "nluds-0490",
+    "grade": 3,
+    "body": "For dessert, Jane's mom prepared 12 pieces of bite-size cinnamon swirls. Jane, her mother, and her father shared the pieces equally among the 3 of them.",
+    "question": "How many pieces did Jane eat?",
+    "topic": "EQUAL_SHARING",
+    "subtype": "SHARE_SIZE_UNKNOWN",
+    "unknown_position": "SHARE_SIZE",
+    "answer": "4 (pieces)",
+    "formula": "12/3=4",
+    "parameters": {
+      "total": 12,
+      "recipient_count": 3,
+      "share_size": 4,
+      "unknown_position": "SHARE_SIZE"
+    },
+    "visual": {
+      "object_label": "cinnamon swirl",
+      "object_plural": "cinnamon swirls",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠",
+      "recipient_label": "person",
+      "recipient_emoji": "🧑",
+      "recipient_labels": [
+        "Jane",
+        "Mother",
+        "Father"
+      ]
+    },
+    "interaction": "EQUAL_SHARING",
+    "visible_roles": [
+      "TOTAL",
+      "RECIPIENT_COUNT"
+    ],
+    "hidden_role": "SHARE_SIZE"
+  },
+  {
+    "id": "MC-EQUAL_SHARING-nluds-0561",
+    "asdiv_id": "nluds-0561",
+    "grade": 3,
+    "body": "Ted has 15 candy bars. He wants to put them into 5 bags so there are the same number of candy bars in each bag.",
+    "question": "How many candy bars should go in each bag?",
+    "topic": "EQUAL_SHARING",
+    "subtype": "SHARE_SIZE_UNKNOWN",
+    "unknown_position": "SHARE_SIZE",
+    "answer": "3 (candy bars)",
+    "formula": "15/5=3",
+    "parameters": {
+      "total": 15,
+      "recipient_count": 5,
+      "share_size": 3,
+      "unknown_position": "SHARE_SIZE"
+    },
+    "visual": {
+      "object_label": "candy bar",
+      "object_plural": "candy bars",
+      "object_code": "1F36C",
+      "fallback_emoji": "🍬",
+      "recipient_label": "bag",
+      "recipient_emoji": "🛍️"
+    },
+    "interaction": "EQUAL_SHARING",
+    "visible_roles": [
+      "TOTAL",
+      "RECIPIENT_COUNT"
+    ],
+    "hidden_role": "SHARE_SIZE"
+  },
+  {
+    "id": "MC-EQUAL_SHARING-nluds-2266",
+    "asdiv_id": "nluds-2266",
+    "grade": 4,
+    "body": "Anne had 15 SweeTarts. She shared them equally among 3 friends.",
+    "question": "How many did each friend receive?",
+    "topic": "EQUAL_SHARING",
+    "subtype": "SHARE_SIZE_UNKNOWN",
+    "unknown_position": "SHARE_SIZE",
+    "answer": "5 (SweeTarts)",
+    "formula": "15/3=5",
+    "parameters": {
+      "total": 15,
+      "recipient_count": 3,
+      "share_size": 5,
+      "unknown_position": "SHARE_SIZE"
+    },
+    "visual": {
+      "object_label": "SweeTart",
+      "object_plural": "SweeTarts",
+      "object_code": "1F9D1",
+      "fallback_emoji": "🧑",
+      "recipient_label": "friend",
+      "recipient_emoji": "🧑"
+    },
+    "interaction": "EQUAL_SHARING",
+    "visible_roles": [
+      "TOTAL",
+      "RECIPIENT_COUNT"
+    ],
+    "hidden_role": "SHARE_SIZE"
+  },
+  {
+    "id": "MC-EQUAL_SHARING-nluds-0464",
+    "asdiv_id": "nluds-0464",
+    "grade": 3,
+    "body": "Lexie's mom gathered all her watercolor paintings and thought of placing an equal number of paintings in four of the rooms in the house. If Lexie has 24 watercolor paintings,",
+    "question": "how many paintings will be placed in each of the four rooms?",
+    "topic": "EQUAL_SHARING",
+    "subtype": "SHARE_SIZE_UNKNOWN",
+    "unknown_position": "SHARE_SIZE",
+    "answer": "6 (paintings)",
+    "formula": "24/4=6",
+    "parameters": {
+      "total": 24,
+      "recipient_count": 4,
+      "share_size": 6,
+      "unknown_position": "SHARE_SIZE"
+    },
+    "visual": {
+      "object_label": "watercolor painting",
+      "object_plural": "watercolor paintings",
+      "object_code": "1F5BC",
+      "fallback_emoji": "🖼️",
+      "recipient_label": "room",
+      "recipient_emoji": "🎨"
+    },
+    "interaction": "EQUAL_SHARING",
+    "visible_roles": [
+      "TOTAL",
+      "RECIPIENT_COUNT"
+    ],
+    "hidden_role": "SHARE_SIZE"
+  },
+  {
+    "id": "MC-EQUAL_SHARING-nluds-0465",
+    "asdiv_id": "nluds-0465",
+    "grade": 3,
+    "body": "Lexie's younger brother helped pick up all the paper clips in Lexie's room. He was able to collect 16 paper clips. If he wants to distribute the paper clips in 4 boxes,",
+    "question": "how many paper clips will each box contain?",
+    "topic": "EQUAL_SHARING",
+    "subtype": "SHARE_SIZE_UNKNOWN",
+    "unknown_position": "SHARE_SIZE",
+    "answer": "4 (paper clips)",
+    "formula": "16/4=4",
+    "parameters": {
+      "total": 16,
+      "recipient_count": 4,
+      "share_size": 4,
+      "unknown_position": "SHARE_SIZE"
+    },
+    "visual": {
+      "object_label": "paper clip",
+      "object_plural": "paper clips",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠",
+      "recipient_label": "box",
+      "recipient_emoji": "🧑"
+    },
+    "interaction": "EQUAL_SHARING",
+    "visible_roles": [
+      "TOTAL",
+      "RECIPIENT_COUNT"
+    ],
+    "hidden_role": "SHARE_SIZE"
+  },
+  {
+    "id": "MC-EQUAL_SHARING-nluds-0474",
+    "asdiv_id": "nluds-0474",
+    "grade": 3,
+    "body": "Aside from drawing animals, Shiela is fond of painting flowers. If she has 18 paintings of flowers,",
+    "question": "how many paintings can she give to each of her three grandmothers?",
+    "topic": "EQUAL_SHARING",
+    "subtype": "SHARE_SIZE_UNKNOWN",
+    "unknown_position": "SHARE_SIZE",
+    "answer": "6 (paintings)",
+    "formula": "18/3=6",
+    "parameters": {
+      "total": 18,
+      "recipient_count": 3,
+      "share_size": 6,
+      "unknown_position": "SHARE_SIZE"
+    },
+    "visual": {
+      "object_label": "painting",
+      "object_plural": "paintings",
+      "object_code": "1F33C",
+      "fallback_emoji": "🌼",
+      "recipient_label": "grandmother",
+      "recipient_emoji": "🧑"
+    },
+    "interaction": "EQUAL_SHARING",
+    "visible_roles": [
+      "TOTAL",
+      "RECIPIENT_COUNT"
+    ],
+    "hidden_role": "SHARE_SIZE"
+  },
+  {
+    "id": "MC-EQUAL_SHARING-nluds-0477",
+    "asdiv_id": "nluds-0477",
+    "grade": 3,
+    "body": "There are 6 boys in Haley's class who love to play marbles. Haley shares 24 marbles equally among them.",
+    "question": "How many marbles will each boy receive?",
+    "topic": "EQUAL_SHARING",
+    "subtype": "SHARE_SIZE_UNKNOWN",
+    "unknown_position": "SHARE_SIZE",
+    "answer": "4 (marbles)",
+    "formula": "24/6=4",
+    "parameters": {
+      "total": 24,
+      "recipient_count": 6,
+      "share_size": 4,
+      "unknown_position": "SHARE_SIZE"
+    },
+    "visual": {
+      "object_label": "marble",
+      "object_plural": "marbles",
+      "object_code": "1F466",
+      "fallback_emoji": "👦",
+      "recipient_label": "boy",
+      "recipient_emoji": "🧑"
+    },
+    "interaction": "EQUAL_SHARING",
+    "visible_roles": [
+      "TOTAL",
+      "RECIPIENT_COUNT"
+    ],
+    "hidden_role": "SHARE_SIZE"
+  },
+  {
+    "id": "MC-EQUAL_SHARING-nluds-0478",
+    "asdiv_id": "nluds-0478",
+    "grade": 3,
+    "body": "When relatives visit Haley and her family, she and her cousins do origami. If she has 20 origami papers to give away to her four cousins,",
+    "question": "how many will each receive if she gives everyone the same number of origami papers?",
+    "topic": "EQUAL_SHARING",
+    "subtype": "SHARE_SIZE_UNKNOWN",
+    "unknown_position": "SHARE_SIZE",
+    "answer": "5 (origami papers)",
+    "formula": "20/4=5",
+    "parameters": {
+      "total": 20,
+      "recipient_count": 4,
+      "share_size": 5,
+      "unknown_position": "SHARE_SIZE"
+    },
+    "visual": {
+      "object_label": "origami paper",
+      "object_plural": "origami papers",
+      "object_code": "1F9D2",
+      "fallback_emoji": "🧒",
+      "recipient_label": "cousin",
+      "recipient_emoji": "🧑"
+    },
+    "interaction": "EQUAL_SHARING",
+    "visible_roles": [
+      "TOTAL",
+      "RECIPIENT_COUNT"
+    ],
+    "hidden_role": "SHARE_SIZE"
+  },
+  {
+    "id": "MC-EQUAL_SHARING-nluds-0483",
+    "asdiv_id": "nluds-0483",
+    "grade": 3,
+    "body": "Brenda wants 5 bracelets with star-shaped stones. Betty has 20 stones to share equally among the bracelets.",
+    "question": "How many stones should go on each bracelet?",
+    "topic": "EQUAL_SHARING",
+    "subtype": "SHARE_SIZE_UNKNOWN",
+    "unknown_position": "SHARE_SIZE",
+    "answer": "4 (stones)",
+    "formula": "20/5=4",
+    "parameters": {
+      "total": 20,
+      "recipient_count": 5,
+      "share_size": 4,
+      "unknown_position": "SHARE_SIZE"
+    },
+    "visual": {
+      "object_label": "stone",
+      "object_plural": "stones",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠",
+      "recipient_label": "bracelet",
+      "recipient_emoji": "🧑"
+    },
+    "interaction": "EQUAL_SHARING",
+    "visible_roles": [
+      "TOTAL",
+      "RECIPIENT_COUNT"
+    ],
+    "hidden_role": "SHARE_SIZE"
+  },
+  {
+    "id": "MC-EQUAL_SHARING-nluds-0485",
+    "asdiv_id": "nluds-0485",
+    "grade": 3,
+    "body": "Brenda's mother made 18 cookies for 6 people. Everyone receives the same number of cookies.",
+    "question": "How many cookies does each person receive?",
+    "topic": "EQUAL_SHARING",
+    "subtype": "SHARE_SIZE_UNKNOWN",
+    "unknown_position": "SHARE_SIZE",
+    "answer": "3 (cookies)",
+    "formula": "18/6=3",
+    "parameters": {
+      "total": 18,
+      "recipient_count": 6,
+      "share_size": 3,
+      "unknown_position": "SHARE_SIZE"
+    },
+    "visual": {
+      "object_label": "cookie",
+      "object_plural": "cookies",
+      "object_code": "1F36A",
+      "fallback_emoji": "🍪",
+      "recipient_label": "person",
+      "recipient_emoji": "🧑"
+    },
+    "interaction": "EQUAL_SHARING",
+    "visible_roles": [
+      "TOTAL",
+      "RECIPIENT_COUNT"
+    ],
+    "hidden_role": "SHARE_SIZE"
+  },
+  {
+    "id": "MC-EQUAL_SHARING-nluds-0501",
+    "asdiv_id": "nluds-0501",
+    "grade": 3,
+    "body": "Susie's father repaired the bookshelves in the reading room. If he has 12 books to be distributed equally on the 2 shelves he repaired,",
+    "question": "how many books will each shelf contain?",
+    "topic": "EQUAL_SHARING",
+    "subtype": "SHARE_SIZE_UNKNOWN",
+    "unknown_position": "SHARE_SIZE",
+    "answer": "6 (books)",
+    "formula": "12/2=6",
+    "parameters": {
+      "total": 12,
+      "recipient_count": 2,
+      "share_size": 6,
+      "unknown_position": "SHARE_SIZE"
+    },
+    "visual": {
+      "object_label": "book",
+      "object_plural": "books",
+      "object_code": "1F4D8",
+      "fallback_emoji": "📘",
+      "recipient_label": "shelf",
+      "recipient_emoji": "🧑"
+    },
+    "interaction": "EQUAL_SHARING",
+    "visible_roles": [
+      "TOTAL",
+      "RECIPIENT_COUNT"
+    ],
+    "hidden_role": "SHARE_SIZE"
+  },
+  {
+    "id": "MC-EQUAL_SHARING-nluds-0502",
+    "asdiv_id": "nluds-0502",
+    "grade": 3,
+    "body": "Matt and his friends are making Christmas decorations for their clubhouse. They have 12 balls to paint equally in 6 colors.",
+    "question": "How many balls will be painted in each color?",
+    "topic": "EQUAL_SHARING",
+    "subtype": "SHARE_SIZE_UNKNOWN",
+    "unknown_position": "SHARE_SIZE",
+    "answer": "2 (balls)",
+    "formula": "12/6=2",
+    "parameters": {
+      "total": 12,
+      "recipient_count": 6,
+      "share_size": 2,
+      "unknown_position": "SHARE_SIZE"
+    },
+    "visual": {
+      "object_label": "ball",
+      "object_plural": "balls",
+      "object_code": "26BD",
+      "fallback_emoji": "⚽",
+      "recipient_label": "color",
+      "recipient_emoji": "🎨"
+    },
+    "interaction": "EQUAL_SHARING",
+    "visible_roles": [
+      "TOTAL",
+      "RECIPIENT_COUNT"
+    ],
+    "hidden_role": "SHARE_SIZE"
+  },
+  {
+    "id": "MC-EQUAL_SHARING-nluds-0577",
+    "asdiv_id": "nluds-0577",
+    "grade": 3,
+    "body": "10 people are going to the zoo. There are 2 cars to take people to the zoo.",
+    "question": "How many will go in each car if the same number go in each car?",
+    "topic": "EQUAL_SHARING",
+    "subtype": "SHARE_SIZE_UNKNOWN",
+    "unknown_position": "SHARE_SIZE",
+    "answer": "5 (people)",
+    "formula": "10/2=5",
+    "parameters": {
+      "total": 10,
+      "recipient_count": 2,
+      "share_size": 5,
+      "unknown_position": "SHARE_SIZE"
+    },
+    "visual": {
+      "object_label": "person",
+      "object_plural": "people",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠",
+      "recipient_label": "car",
+      "recipient_emoji": "🧑"
+    },
+    "interaction": "EQUAL_SHARING",
+    "visible_roles": [
+      "TOTAL",
+      "RECIPIENT_COUNT"
+    ],
+    "hidden_role": "SHARE_SIZE"
+  },
+  {
+    "id": "MC-EQUAL_SHARING-nluds-0590",
+    "asdiv_id": "nluds-0590",
+    "grade": 3,
+    "body": "There are 12 cupcakes for 4 children to share equally.",
+    "question": "How many cupcakes will each child receive?",
+    "topic": "EQUAL_SHARING",
+    "subtype": "SHARE_SIZE_UNKNOWN",
+    "unknown_position": "SHARE_SIZE",
+    "answer": "3 (cupcakes)",
+    "formula": "12/4=3",
+    "parameters": {
+      "total": 12,
+      "recipient_count": 4,
+      "share_size": 3,
+      "unknown_position": "SHARE_SIZE"
+    },
+    "visual": {
+      "object_label": "cupcake",
+      "object_plural": "cupcakes",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠",
+      "recipient_label": "child",
+      "recipient_emoji": "🧑"
+    },
+    "interaction": "EQUAL_SHARING",
+    "visible_roles": [
+      "TOTAL",
+      "RECIPIENT_COUNT"
+    ],
+    "hidden_role": "SHARE_SIZE"
+  },
+  {
+    "id": "MC-EQUAL_SHARING-nluds-0607",
+    "asdiv_id": "nluds-0607",
+    "grade": 3,
+    "body": "Mr. Guzman bought 9 doughnuts packed equally into 3 boxes.",
+    "question": "How many doughnuts were in each box?",
+    "topic": "EQUAL_SHARING",
+    "subtype": "SHARE_SIZE_UNKNOWN",
+    "unknown_position": "SHARE_SIZE",
+    "answer": "3 (doughnuts)",
+    "formula": "9/3=3",
+    "parameters": {
+      "total": 9,
+      "recipient_count": 3,
+      "share_size": 3,
+      "unknown_position": "SHARE_SIZE"
+    },
+    "visual": {
+      "object_label": "doughnut",
+      "object_plural": "doughnuts",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠",
+      "recipient_label": "box",
+      "recipient_emoji": "🧑"
+    },
+    "interaction": "EQUAL_SHARING",
+    "visible_roles": [
+      "TOTAL",
+      "RECIPIENT_COUNT"
+    ],
+    "hidden_role": "SHARE_SIZE"
+  },
+  {
+    "id": "MC-EQUAL_SHARING-nluds-1578",
+    "asdiv_id": "nluds-1578",
+    "grade": 4,
+    "body": "At the carnival, 5 friends bought 10 tickets total. If they each bought the same amount,",
+    "question": "how many tickets did each person buy?",
+    "topic": "EQUAL_SHARING",
+    "subtype": "SHARE_SIZE_UNKNOWN",
+    "unknown_position": "SHARE_SIZE",
+    "answer": "2 (tickets)",
+    "formula": "10/5=2",
+    "parameters": {
+      "total": 10,
+      "recipient_count": 5,
+      "share_size": 2,
+      "unknown_position": "SHARE_SIZE"
+    },
+    "visual": {
+      "object_label": "ticket",
+      "object_plural": "tickets",
+      "object_code": "1F9D1",
+      "fallback_emoji": "🧑",
+      "recipient_label": "friend",
+      "recipient_emoji": "🧑"
+    },
+    "interaction": "EQUAL_SHARING",
+    "visible_roles": [
+      "TOTAL",
+      "RECIPIENT_COUNT"
+    ],
+    "hidden_role": "SHARE_SIZE"
+  },
+  {
+    "id": "MC-EQUAL_SHARING-nluds-1579",
+    "asdiv_id": "nluds-1579",
+    "grade": 4,
+    "body": "Sarah is making bead necklaces. She has 8 beads and is making 2 necklaces with each necklace using the same number of beads.",
+    "question": "How many beads will each necklace use?",
+    "topic": "EQUAL_SHARING",
+    "subtype": "SHARE_SIZE_UNKNOWN",
+    "unknown_position": "SHARE_SIZE",
+    "answer": "4 (beads)",
+    "formula": "8/2=4",
+    "parameters": {
+      "total": 8,
+      "recipient_count": 2,
+      "share_size": 4,
+      "unknown_position": "SHARE_SIZE"
+    },
+    "visual": {
+      "object_label": "bead",
+      "object_plural": "beads",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠",
+      "recipient_label": "necklace",
+      "recipient_emoji": "🧑"
+    },
+    "interaction": "EQUAL_SHARING",
+    "visible_roles": [
+      "TOTAL",
+      "RECIPIENT_COUNT"
+    ],
+    "hidden_role": "SHARE_SIZE"
+  },
+  {
+    "id": "MC-EQUAL_SHARING-nluds-1580",
+    "asdiv_id": "nluds-1580",
+    "grade": 4,
+    "body": "George had 8 pieces of candy. If he split the candy into 4 bags with the same amount of candy in each bag,",
+    "question": "how many pieces would each bag have in it?",
+    "topic": "EQUAL_SHARING",
+    "subtype": "SHARE_SIZE_UNKNOWN",
+    "unknown_position": "SHARE_SIZE",
+    "answer": "2 (pieces)",
+    "formula": "8/4=2",
+    "parameters": {
+      "total": 8,
+      "recipient_count": 4,
+      "share_size": 2,
+      "unknown_position": "SHARE_SIZE"
+    },
+    "visual": {
+      "object_label": "piece of candy",
+      "object_plural": "pieces of candy",
+      "object_code": "1F36C",
+      "fallback_emoji": "🍬",
+      "recipient_label": "bag",
+      "recipient_emoji": "🛍️"
+    },
+    "interaction": "EQUAL_SHARING",
+    "visible_roles": [
+      "TOTAL",
+      "RECIPIENT_COUNT"
+    ],
+    "hidden_role": "SHARE_SIZE"
+  },
+  {
+    "id": "MC-EQUAL_SHARING-nluds-1582",
+    "asdiv_id": "nluds-1582",
+    "grade": 4,
+    "body": "Edward had 6 baseball cards in 2 binders. If each binder has the same number of cards,",
+    "question": "how many cards are in each binder?",
+    "topic": "EQUAL_SHARING",
+    "subtype": "SHARE_SIZE_UNKNOWN",
+    "unknown_position": "SHARE_SIZE",
+    "answer": "3 (cards)",
+    "formula": "6/2=3",
+    "parameters": {
+      "total": 6,
+      "recipient_count": 2,
+      "share_size": 3,
+      "unknown_position": "SHARE_SIZE"
+    },
+    "visual": {
+      "object_label": "baseball card",
+      "object_plural": "baseball cards",
+      "object_code": "26BD",
+      "fallback_emoji": "⚽",
+      "recipient_label": "binder",
+      "recipient_emoji": "🧑"
+    },
+    "interaction": "EQUAL_SHARING",
+    "visible_roles": [
+      "TOTAL",
+      "RECIPIENT_COUNT"
+    ],
+    "hidden_role": "SHARE_SIZE"
+  },
+  {
+    "id": "MC-EQUAL_SHARING-nluds-1588",
+    "asdiv_id": "nluds-1588",
+    "grade": 4,
+    "body": "There are 6 seats in a movie theater. If the movie theater has 3 sections with the same number of seats in each section,",
+    "question": "how many seats are in each section?",
+    "topic": "EQUAL_SHARING",
+    "subtype": "SHARE_SIZE_UNKNOWN",
+    "unknown_position": "SHARE_SIZE",
+    "answer": "2 (seats)",
+    "formula": "6/3=2",
+    "parameters": {
+      "total": 6,
+      "recipient_count": 3,
+      "share_size": 2,
+      "unknown_position": "SHARE_SIZE"
+    },
+    "visual": {
+      "object_label": "seat",
+      "object_plural": "seats",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠",
+      "recipient_label": "section",
+      "recipient_emoji": "🧑"
+    },
+    "interaction": "EQUAL_SHARING",
+    "visible_roles": [
+      "TOTAL",
+      "RECIPIENT_COUNT"
+    ],
+    "hidden_role": "SHARE_SIZE"
+  },
+  {
+    "id": "MC-PART_TO_PART_RATIO-nluds-0850",
+    "asdiv_id": "nluds-0850",
+    "grade": 6,
+    "body": "There are 5 boys and 6 girls in fifth grade.",
+    "question": "Find the ratio of boys to girls in fifth grade.",
+    "topic": "PART_TO_PART_RATIO",
+    "subtype": "REPRESENTATION",
+    "unknown_position": "REPRESENTATION",
+    "answer": "5:6",
+    "formula": "5:6=5:6",
+    "parameters": {
+      "part_a": 5,
+      "part_b": 6,
+      "unknown_position": "REPRESENTATION"
+    },
+    "visual": {
+      "object_label": "boy",
+      "object_plural": "boys",
+      "object_code": "1F466",
+      "fallback_emoji": "👦",
+      "part_a_label": "boys",
+      "part_b_label": "girls",
+      "part_a_emoji": "👦",
+      "part_b_emoji": "👧"
+    },
+    "interaction": "PART_TO_PART_RATIO",
+    "visible_roles": [
+      "PART_A",
+      "PART_B"
+    ],
+    "hidden_role": null
+  },
+  {
+    "id": "MC-PART_TO_PART_RATIO-nluds-0851",
+    "asdiv_id": "nluds-0851",
+    "grade": 6,
+    "body": "Diana bought 3 guavas and 4 apples.",
+    "question": "What is the ratio of guavas to apples?",
+    "topic": "PART_TO_PART_RATIO",
+    "subtype": "REPRESENTATION",
+    "unknown_position": "REPRESENTATION",
+    "answer": "3:4",
+    "formula": "3:4=3:4",
+    "parameters": {
+      "part_a": 3,
+      "part_b": 4,
+      "unknown_position": "REPRESENTATION"
+    },
+    "visual": {
+      "object_label": "apple",
+      "object_plural": "apples",
+      "object_code": "1F34E",
+      "fallback_emoji": "🍎",
+      "part_a_label": "guavas",
+      "part_b_label": "apples",
+      "part_a_emoji": "🍏",
+      "part_b_emoji": "🍎"
+    },
+    "interaction": "PART_TO_PART_RATIO",
+    "visible_roles": [
+      "PART_A",
+      "PART_B"
+    ],
+    "hidden_role": null
+  },
+  {
+    "id": "MC-PART_TO_PART_RATIO-nluds-0852",
+    "asdiv_id": "nluds-0852",
+    "grade": 6,
+    "body": "Elliott has 4 candies and Sabetha has 5 candies.",
+    "question": "Find the ratio of Elliott's candies to Sabetha's candies.",
+    "topic": "PART_TO_PART_RATIO",
+    "subtype": "REPRESENTATION",
+    "unknown_position": "REPRESENTATION",
+    "answer": "4:5",
+    "formula": "4:5=4:5",
+    "parameters": {
+      "part_a": 4,
+      "part_b": 5,
+      "unknown_position": "REPRESENTATION"
+    },
+    "visual": {
+      "object_label": "counter",
+      "object_plural": "counters",
+      "object_code": "1F7E0",
+      "fallback_emoji": "🟠",
+      "part_a_label": "Elliott's candies",
+      "part_b_label": "Sabetha's candies",
+      "part_a_emoji": "🍬",
+      "part_b_emoji": "🍭"
+    },
+    "interaction": "PART_TO_PART_RATIO",
+    "visible_roles": [
+      "PART_A",
+      "PART_B"
+    ],
+    "hidden_role": null
+  },
+  {
+    "id": "MC-PART_TO_PART_RATIO-nluds-0853",
+    "asdiv_id": "nluds-0853",
+    "grade": 6,
+    "body": "For a birthday party, Esther orders 2 chicken pizzas and 3 vegetable pizzas.",
+    "question": "Find the ratio of chicken pizzas to the vegetable pizzas.",
+    "topic": "PART_TO_PART_RATIO",
+    "subtype": "REPRESENTATION",
+    "unknown_position": "REPRESENTATION",
+    "answer": "2:3",
+    "formula": "2:3=2:3",
+    "parameters": {
+      "part_a": 2,
+      "part_b": 3,
+      "unknown_position": "REPRESENTATION"
+    },
+    "visual": {
+      "object_label": "pizza",
+      "object_plural": "pizzas",
+      "object_code": "1F355",
+      "fallback_emoji": "🍕",
+      "part_a_label": "chicken pizzas",
+      "part_b_label": "vegetable pizzas",
+      "part_a_emoji": "🍕",
+      "part_b_emoji": "🍕"
+    },
+    "interaction": "PART_TO_PART_RATIO",
+    "visible_roles": [
+      "PART_A",
+      "PART_B"
+    ],
+    "hidden_role": null
+  },
+  {
+    "id": "MC-PART_TO_PART_RATIO-nluds-0854",
+    "asdiv_id": "nluds-0854",
+    "grade": 6,
+    "body": "In an animal sanctuary, there are 3 deer and 4 monkeys.",
+    "question": "Find the ratio of deer to monkeys.",
+    "topic": "PART_TO_PART_RATIO",
+    "subtype": "REPRESENTATION",
+    "unknown_position": "REPRESENTATION",
+    "answer": "3:4",
+    "formula": "3:4=3:4",
+    "parameters": {
+      "part_a": 3,
+      "part_b": 4,
+      "unknown_position": "REPRESENTATION"
+    },
+    "visual": {
+      "object_label": "monkey",
+      "object_plural": "monkeys",
+      "object_code": "1F412",
+      "fallback_emoji": "🐒",
+      "part_a_label": "deer",
+      "part_b_label": "monkeys",
+      "part_a_emoji": "🦌",
+      "part_b_emoji": "🐒"
+    },
+    "interaction": "PART_TO_PART_RATIO",
+    "visible_roles": [
+      "PART_A",
+      "PART_B"
+    ],
+    "hidden_role": null
+  },
+  {
+    "id": "MC-PART_TO_PART_RATIO-nluds-0856",
+    "asdiv_id": "nluds-0856",
+    "grade": 6,
+    "body": "A fruit seller bought 3 mangoes and 5 apples from a vendor.",
+    "question": "What is the ratio of mangoes to apples?",
+    "topic": "PART_TO_PART_RATIO",
+    "subtype": "REPRESENTATION",
+    "unknown_position": "REPRESENTATION",
+    "answer": "3:5",
+    "formula": "3:5=3:5",
+    "parameters": {
+      "part_a": 3,
+      "part_b": 5,
+      "unknown_position": "REPRESENTATION"
+    },
+    "visual": {
+      "object_label": "apple",
+      "object_plural": "apples",
+      "object_code": "1F34E",
+      "fallback_emoji": "🍎",
+      "part_a_label": "mangoes",
+      "part_b_label": "apples",
+      "part_a_emoji": "🥭",
+      "part_b_emoji": "🍎"
+    },
+    "interaction": "PART_TO_PART_RATIO",
+    "visible_roles": [
+      "PART_A",
+      "PART_B"
+    ],
+    "hidden_role": null
+  },
+  {
+    "id": "MC-PART_TO_PART_RATIO-nluds-0859",
+    "asdiv_id": "nluds-0859",
+    "grade": 6,
+    "body": "An egg seller has 2 spoiled or broken eggs and 5 eggs in good condition.",
+    "question": "What is the ratio of bad eggs to good eggs?",
+    "topic": "PART_TO_PART_RATIO",
+    "subtype": "REPRESENTATION",
+    "unknown_position": "REPRESENTATION",
+    "answer": "2:5",
+    "formula": "2:5=2:5",
+    "parameters": {
+      "part_a": 2,
+      "part_b": 5,
+      "unknown_position": "REPRESENTATION"
+    },
+    "visual": {
+      "object_label": "egg",
+      "object_plural": "eggs",
+      "object_code": "1F95A",
+      "fallback_emoji": "🥚",
+      "part_a_label": "bad eggs",
+      "part_b_label": "good eggs",
+      "part_a_emoji": "🥚",
+      "part_b_emoji": "🥚"
+    },
+    "interaction": "PART_TO_PART_RATIO",
+    "visible_roles": [
+      "PART_A",
+      "PART_B"
+    ],
+    "hidden_role": null
+  },
+  {
+    "id": "MC-PART_TO_PART_RATIO-nluds-1146",
+    "asdiv_id": "nluds-1146",
+    "grade": 5,
+    "body": "In Denelle's grade, 7 students have a pet and 1 student does not.",
+    "question": "What is the ratio of students without a pet to students with a pet?",
+    "topic": "PART_TO_PART_RATIO",
+    "subtype": "REPRESENTATION",
+    "unknown_position": "REPRESENTATION",
+    "answer": "1:7",
+    "formula": "1:7=1:7",
+    "parameters": {
+      "part_a": 1,
+      "part_b": 7,
+      "unknown_position": "REPRESENTATION"
+    },
+    "visual": {
+      "object_label": "student",
+      "object_plural": "students",
+      "object_code": "1F9D1",
+      "fallback_emoji": "🧑",
+      "part_a_label": "students without a pet",
+      "part_b_label": "students with a pet",
+      "part_a_emoji": "🧑",
+      "part_b_emoji": "🧑"
+    },
+    "interaction": "PART_TO_PART_RATIO",
+    "visible_roles": [
+      "PART_A",
+      "PART_B"
+    ],
+    "hidden_role": null
+  }
+]

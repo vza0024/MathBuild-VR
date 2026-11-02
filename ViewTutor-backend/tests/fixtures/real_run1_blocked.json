@@ -1,0 +1,140 @@
+[
+ {
+  "question_id": "MC-JOIN-nluds-0001",
+  "support_type": "HINT",
+  "learner_state": {
+   "added_count": 0,
+   "current_count": 7,
+   "answer": null
+  },
+  "llm_text": "Start by placing the red apples from the story in the Basket.",
+  "v4_rule": "hint_no_action",
+  "source": "gpt-6.1-sol, run 1, 2026-10-12"
+ },
+ {
+  "question_id": "MC-JOIN-nluds-0001",
+  "support_type": "SIMPLIFY_STORY",
+  "learner_state": {
+   "added_count": 0,
+   "current_count": 3,
+   "part_a_count": 0,
+   "part_b_count": 3,
+   "total_count": 3,
+   "workspace_mode": "single_destination_two_sources",
+   "answer": null
+  },
+  "llm_text": "The story asks how many apples are in the Basket altogether. It means all the red apples and green apples in the Basket, not just one color.",
+  "v4_rule": "movement_as_quantity",
+  "source": "gpt-6.1-sol, run 1, 2026-10-12"
+ },
+ {
+  "question_id": "MC-REMOVE-nluds-0022",
+  "support_type": "HINT",
+  "learner_state": {
+   "removed_count": 0,
+   "remaining_count": 7,
+   "answer": null
+  },
+  "llm_text": "Start by choosing the cookies that were eaten in the story.",
+  "v4_rule": "hint_no_action",
+  "source": "gpt-6.1-sol, run 1, 2026-10-12"
+ },
+ {
+  "question_id": "MC-REMOVE-nluds-0022",
+  "support_type": "HINT",
+  "learner_state": {
+   "removed_count": 1,
+   "remaining_count": 6,
+   "answer": null
+  },
+  "llm_text": "You’ve removed a cookie. Keep showing which cookies were eaten in the story.",
+  "v4_rule": "hint_no_action",
+  "source": "gpt-6.1-sol, run 1, 2026-10-12"
+ },
+ {
+  "question_id": "MC-EQUAL_GROUPS-nluds-0179",
+  "support_type": "HINT",
+  "learner_state": {
+   "group_sizes": [],
+   "undistributed_count": 0,
+   "answer": null
+  },
+  "llm_text": "Start by making a group for each of Kim’s 4 cousins.",
+  "v4_rule": "hint_no_action",
+  "source": "gpt-6.1-sol, run 1, 2026-10-12"
+ },
+ {
+  "question_id": "MC-EQUAL_GROUPS-nluds-0179",
+  "support_type": "SIMPLIFY_STORY",
+  "learner_state": {
+   "group_sizes": [],
+   "undistributed_count": 0,
+   "answer": null
+  },
+  "llm_text": "Kim gives each cousin the same amount of gum. The story asks how many pieces of gum she gives to all her cousins altogether, not just to one cousin.",
+  "v4_rule": "number_not_allowed",
+  "source": "gpt-6.1-sol, run 1, 2026-10-12"
+ },
+ {
+  "question_id": "MC-EQUAL_GROUPS-nluds-0179",
+  "support_type": "HINT",
+  "learner_state": {
+   "group_sizes": [
+    6,
+    5,
+    5,
+    5,
+    5
+   ],
+   "undistributed_count": 0,
+   "answer": null
+  },
+  "llm_text": "Start by checking your cousin groups: does the number of groups match the cousins in the story?",
+  "v4_rule": "hint_no_action",
+  "source": "gpt-6.1-sol, run 1, 2026-10-12"
+ },
+ {
+  "question_id": "MC-EQUAL_SHARING-nluds-0490",
+  "support_type": "HINT",
+  "learner_state": {
+   "share_sizes": [
+    0,
+    0,
+    0
+   ],
+   "undistributed_count": 12,
+   "answer": null
+  },
+  "llm_text": "Start by giving Jane, Mother, and Father one cinnamon swirl each.",
+  "v4_rule": "hint_no_action",
+  "source": "gpt-6.1-sol, run 1, 2026-10-12"
+ },
+ {
+  "question_id": "MC-PART_TO_PART_RATIO-nluds-0850",
+  "support_type": "HINT",
+  "learner_state": {
+   "part_a_count": 0,
+   "part_b_count": 0,
+   "unassigned_a": 5,
+   "unassigned_b": 6,
+   "answer": null
+  },
+  "llm_text": "Start by placing the boys in the boys group.",
+  "v4_rule": "hint_no_action",
+  "source": "gpt-6.1-sol, run 1, 2026-10-12"
+ },
+ {
+  "question_id": "MC-PART_TO_PART_RATIO-nluds-0850",
+  "support_type": "SIMPLIFY_STORY",
+  "learner_state": {
+   "part_a_count": 0,
+   "part_b_count": 0,
+   "unassigned_a": 5,
+   "unassigned_b": 6,
+   "answer": null
+  },
+  "llm_text": "The story asks you to compare the boys with the girls, not find how many children there are altogether. A ratio tells how the two groups compare, with boys first and girls second.",
+  "v4_rule": "number_not_allowed",
+  "source": "gpt-6.1-sol, run 1, 2026-10-12"
+ }
+]

@@ -1,0 +1,6 @@
+{
+  "model": "gpt-6.1-sol",
+  "input": 2.00,
+  "output": 10.00,
+  "note": "USD per 1M tokens, from OpenAI model page as checked 2026-10-12. Re-check before reporting cost."
+}

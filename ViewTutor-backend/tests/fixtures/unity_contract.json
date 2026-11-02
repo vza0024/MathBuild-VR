@@ -1,0 +1,402 @@
+{
+ "ConversationMessageDto": [
+  {
+   "name": "role",
+   "type": "string"
+  },
+  {
+   "name": "content",
+   "type": "string"
+  }
+ ],
+ "HealthResponseDto": [
+  {
+   "name": "status",
+   "type": "string"
+  },
+  {
+   "name": "app_version",
+   "type": "string"
+  },
+  {
+   "name": "question_count",
+   "type": "int"
+  },
+  {
+   "name": "support_options",
+   "type": "string[]"
+  },
+  {
+   "name": "llm_provider",
+   "type": "string"
+  },
+  {
+   "name": "llm_model",
+   "type": "string"
+  },
+  {
+   "name": "llm_configured",
+   "type": "bool"
+  },
+  {
+   "name": "llm_loaded",
+   "type": "bool"
+  },
+  {
+   "name": "hf_token_configured",
+   "type": "bool"
+  },
+  {
+   "name": "gpu_available",
+   "type": "bool"
+  },
+  {
+   "name": "gpu_name",
+   "type": "string"
+  },
+  {
+   "name": "load_in_4bit",
+   "type": "bool"
+  },
+  {
+   "name": "model_error",
+   "type": "string"
+  },
+  {
+   "name": "model_load_attempted",
+   "type": "bool"
+  }
+ ],
+ "EqualGroupsLearnerStateDto": [
+  {
+   "name": "group_sizes",
+   "type": "int[]"
+  },
+  {
+   "name": "undistributed_count",
+   "type": "int"
+  },
+  {
+   "name": "answer",
+   "type": "int?"
+  }
+ ],
+ "EqualSharingLearnerStateDto": [
+  {
+   "name": "share_sizes",
+   "type": "int[]"
+  },
+  {
+   "name": "undistributed_count",
+   "type": "int"
+  },
+  {
+   "name": "answer",
+   "type": "int?"
+  }
+ ],
+ "JoinLearnerStateDto": [
+  {
+   "name": "added_count",
+   "type": "int"
+  },
+  {
+   "name": "current_count",
+   "type": "int"
+  },
+  {
+   "name": "answer",
+   "type": "int?"
+  },
+  {
+   "name": "workspace_mode",
+   "type": "string"
+  },
+  {
+   "name": "destination_label",
+   "type": "string"
+  },
+  {
+   "name": "part_a_label",
+   "type": "string"
+  },
+  {
+   "name": "part_b_label",
+   "type": "string"
+  },
+  {
+   "name": "part_a_count",
+   "type": "int?"
+  },
+  {
+   "name": "part_b_count",
+   "type": "int?"
+  },
+  {
+   "name": "total_count",
+   "type": "int"
+  },
+  {
+   "name": "story_quantities_pre_spawned",
+   "type": "bool"
+  },
+  {
+   "name": "state_note",
+   "type": "string"
+  }
+ ],
+ "RatioLearnerStateDto": [
+  {
+   "name": "part_a_count",
+   "type": "int"
+  },
+  {
+   "name": "part_b_count",
+   "type": "int"
+  },
+  {
+   "name": "unassigned_a",
+   "type": "int"
+  },
+  {
+   "name": "unassigned_b",
+   "type": "int"
+  },
+  {
+   "name": "answer",
+   "type": "int?"
+  }
+ ],
+ "RemoveLearnerStateDto": [
+  {
+   "name": "removed_count",
+   "type": "int"
+  },
+  {
+   "name": "remaining_count",
+   "type": "int"
+  },
+  {
+   "name": "answer",
+   "type": "int?"
+  }
+ ],
+ "QuestionDto": [
+  {
+   "name": "id",
+   "type": "string"
+  },
+  {
+   "name": "asdiv_id",
+   "type": "string"
+  },
+  {
+   "name": "grade",
+   "type": "int"
+  },
+  {
+   "name": "body",
+   "type": "string"
+  },
+  {
+   "name": "question",
+   "type": "string"
+  },
+  {
+   "name": "topic",
+   "type": "string"
+  },
+  {
+   "name": "subtype",
+   "type": "string"
+  },
+  {
+   "name": "unknown_position",
+   "type": "string"
+  },
+  {
+   "name": "parameters",
+   "type": "QuestionParametersDto"
+  },
+  {
+   "name": "visual",
+   "type": "QuestionVisualDto"
+  },
+  {
+   "name": "interaction",
+   "type": "string"
+  },
+  {
+   "name": "visible_roles",
+   "type": "string[]"
+  },
+  {
+   "name": "hidden_role",
+   "type": "string"
+  }
+ ],
+ "QuestionParametersDto": [
+  {
+   "name": "initial",
+   "type": "int?"
+  },
+  {
+   "name": "change",
+   "type": "int?"
+  },
+  {
+   "name": "result",
+   "type": "int?"
+  },
+  {
+   "name": "group_count",
+   "type": "int?"
+  },
+  {
+   "name": "group_size",
+   "type": "int?"
+  },
+  {
+   "name": "total",
+   "type": "int?"
+  },
+  {
+   "name": "recipient_count",
+   "type": "int?"
+  },
+  {
+   "name": "share_size",
+   "type": "int?"
+  },
+  {
+   "name": "part_a",
+   "type": "int?"
+  },
+  {
+   "name": "part_b",
+   "type": "int?"
+  }
+ ],
+ "QuestionVisualDto": [
+  {
+   "name": "object_label",
+   "type": "string"
+  },
+  {
+   "name": "object_plural",
+   "type": "string"
+  },
+  {
+   "name": "object_code",
+   "type": "string"
+  },
+  {
+   "name": "fallback_emoji",
+   "type": "string"
+  },
+  {
+   "name": "initial_object_label",
+   "type": "string"
+  },
+  {
+   "name": "initial_object_code",
+   "type": "string"
+  },
+  {
+   "name": "initial_fallback_emoji",
+   "type": "string"
+  },
+  {
+   "name": "change_object_label",
+   "type": "string"
+  },
+  {
+   "name": "change_object_code",
+   "type": "string"
+  },
+  {
+   "name": "change_fallback_emoji",
+   "type": "string"
+  },
+  {
+   "name": "group_label",
+   "type": "string"
+  },
+  {
+   "name": "group_emoji",
+   "type": "string"
+  },
+  {
+   "name": "recipient_label",
+   "type": "string"
+  },
+  {
+   "name": "recipient_labels",
+   "type": "string[]"
+  },
+  {
+   "name": "recipient_emoji",
+   "type": "string"
+  },
+  {
+   "name": "part_a_label",
+   "type": "string"
+  },
+  {
+   "name": "part_b_label",
+   "type": "string"
+  },
+  {
+   "name": "part_a_emoji",
+   "type": "string"
+  },
+  {
+   "name": "part_b_emoji",
+   "type": "string"
+  }
+ ],
+ "TutorRequestDto": [
+  {
+   "name": "question_id",
+   "type": "string"
+  },
+  {
+   "name": "learner_state",
+   "type": "object"
+  },
+  {
+   "name": "support_type",
+   "type": "SupportType"
+  },
+  {
+   "name": "latest_action",
+   "type": "string"
+  },
+  {
+   "name": "student_message",
+   "type": "string"
+  },
+  {
+   "name": "conversation_history",
+   "type": "ConversationMessageDto[]"
+  }
+ ],
+ "TutorResponseDto": [
+  {
+   "name": "tutor_response",
+   "type": "string"
+  },
+  {
+   "name": "conversation_status",
+   "type": "string"
+  },
+  {
+   "name": "student_correct",
+   "type": "bool"
+  },
+  {
+   "name": "support_type",
+   "type": "SupportType"
+  }
+ ]
+}

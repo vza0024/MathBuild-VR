@@ -1,0 +1,281 @@
+{
+  "description": "Real generated hints (not edited) for the state used in visibility_snapshots.json, plus all grounding failures and one focus-change pair. Annotations are from evaluation_data.csv.",
+  "state_id": "MC-EQUAL_GROUPS-nluds-0409__two_errors",
+  "problem": {
+    "story_and_question": {
+      "story": "Ben was also given 2 trays of eggs to examine. If each tray has 5 eggs,",
+      "question": "how many eggs did Ben examine in total?",
+      "stated_quantities": {
+        "number of groups": 2,
+        "objects in each group": 5
+      }
+    }
+  },
+  "learner_state": {
+    "group_sizes": [
+      6,
+      5,
+      5
+    ],
+    "undistributed_count": 0,
+    "answer": null
+  },
+  "hints_for_state": [
+    {
+      "hint_id": "H231",
+      "condition": "reference",
+      "scripted_view": "all_visible",
+      "generation_index": 1,
+      "hint_text": "Compare your groups with the trays in Ben’s story—does the number of groups match?",
+      "category": "3",
+      "mathematical_target": "construction",
+      "orientation_phrase": "no"
+    },
+    {
+      "hint_id": "H294",
+      "condition": "reference",
+      "scripted_view": "all_visible",
+      "generation_index": 2,
+      "hint_text": "Compare your groups with the trays in Ben’s story—does the number of groups match?",
+      "category": "3",
+      "mathematical_target": "construction",
+      "orientation_phrase": "no"
+    },
+    {
+      "hint_id": "H066",
+      "condition": "reference",
+      "scripted_view": "relevant_hidden",
+      "generation_index": 1,
+      "hint_text": "Compare your number of groups with the number of trays in Ben’s story—do they match?",
+      "category": "3",
+      "mathematical_target": "construction",
+      "orientation_phrase": "no"
+    },
+    {
+      "hint_id": "H302",
+      "condition": "reference",
+      "scripted_view": "relevant_hidden",
+      "generation_index": 2,
+      "hint_text": "Compare your number of groups with the number of trays in Ben’s story—do they match?",
+      "category": "3",
+      "mathematical_target": "construction",
+      "orientation_phrase": "no"
+    },
+    {
+      "hint_id": "H003",
+      "condition": "reference",
+      "scripted_view": "relevant_hidden_unseen",
+      "generation_index": 1,
+      "hint_text": "Compare how many groups are on your desk with how many trays Ben was given—do they match?",
+      "category": "3",
+      "mathematical_target": "construction",
+      "orientation_phrase": "no"
+    },
+    {
+      "hint_id": "H106",
+      "condition": "reference",
+      "scripted_view": "relevant_hidden_unseen",
+      "generation_index": 2,
+      "hint_text": "Check how many trays Ben has in the story—does your number of groups match?",
+      "category": "3",
+      "mathematical_target": "construction",
+      "orientation_phrase": "no"
+    },
+    {
+      "hint_id": "H354",
+      "condition": "reference",
+      "scripted_view": "relevant_partial",
+      "generation_index": 1,
+      "hint_text": "Check your groups—does the number of groups match Ben’s trays in the story?",
+      "category": "3",
+      "mathematical_target": "construction",
+      "orientation_phrase": "no"
+    },
+    {
+      "hint_id": "H297",
+      "condition": "reference",
+      "scripted_view": "relevant_partial",
+      "generation_index": 2,
+      "hint_text": "Compare your number of groups with the number of trays in Ben’s story—do they match?",
+      "category": "3",
+      "mathematical_target": "construction",
+      "orientation_phrase": "no"
+    },
+    {
+      "hint_id": "H159",
+      "condition": "reference",
+      "scripted_view": "relevant_visible",
+      "generation_index": 1,
+      "hint_text": "Compare your number of groups with the number of trays in Ben’s story—do they match?",
+      "category": "3",
+      "mathematical_target": "construction",
+      "orientation_phrase": "no"
+    },
+    {
+      "hint_id": "H010",
+      "condition": "reference",
+      "scripted_view": "relevant_visible",
+      "generation_index": 2,
+      "hint_text": "Compare your number of groups with the trays in Ben’s story—do they match?",
+      "category": "3",
+      "mathematical_target": "construction",
+      "orientation_phrase": "no"
+    },
+    {
+      "hint_id": "H151",
+      "condition": "view_conditioned",
+      "scripted_view": "all_visible",
+      "generation_index": 1,
+      "hint_text": "Compare your groups with Ben’s trays in the story—does the number of groups match?",
+      "category": "3",
+      "mathematical_target": "construction",
+      "orientation_phrase": "no"
+    },
+    {
+      "hint_id": "H006",
+      "condition": "view_conditioned",
+      "scripted_view": "all_visible",
+      "generation_index": 2,
+      "hint_text": "Check the eggs in Group 1—does that group match what the story says each tray holds?",
+      "category": "1",
+      "mathematical_target": "Group 1",
+      "orientation_phrase": "no"
+    },
+    {
+      "hint_id": "H038",
+      "condition": "view_conditioned",
+      "scripted_view": "relevant_hidden",
+      "generation_index": 1,
+      "hint_text": "Turn toward Group 1. Check the eggs there—does this match what the story says each tray holds?",
+      "category": "1",
+      "mathematical_target": "Group 1",
+      "orientation_phrase": "yes"
+    },
+    {
+      "hint_id": "H103",
+      "condition": "view_conditioned",
+      "scripted_view": "relevant_hidden",
+      "generation_index": 2,
+      "hint_text": "Turn toward Group 1. Check the eggs there—does that match how many eggs the story says are in each tray?",
+      "category": "1",
+      "mathematical_target": "Group 1",
+      "orientation_phrase": "yes"
+    },
+    {
+      "hint_id": "H073",
+      "condition": "view_conditioned",
+      "scripted_view": "relevant_hidden_unseen",
+      "generation_index": 1,
+      "hint_text": "Check how many trays Ben was given in the story—does your number of groups match?",
+      "category": "3",
+      "mathematical_target": "construction",
+      "orientation_phrase": "no"
+    },
+    {
+      "hint_id": "H094",
+      "condition": "view_conditioned",
+      "scripted_view": "relevant_hidden_unseen",
+      "generation_index": 2,
+      "hint_text": "Check your groups: does the number of groups match the number of trays in Ben’s story?",
+      "category": "3",
+      "mathematical_target": "construction",
+      "orientation_phrase": "no"
+    },
+    {
+      "hint_id": "H182",
+      "condition": "view_conditioned",
+      "scripted_view": "relevant_partial",
+      "generation_index": 1,
+      "hint_text": "Check how many trays Ben was given in the story—does your number of groups match?",
+      "category": "3",
+      "mathematical_target": "construction",
+      "orientation_phrase": "no"
+    },
+    {
+      "hint_id": "H084",
+      "condition": "view_conditioned",
+      "scripted_view": "relevant_partial",
+      "generation_index": 2,
+      "hint_text": "Compare your number of groups with the number of trays in Ben’s story—do they match?",
+      "category": "3",
+      "mathematical_target": "construction",
+      "orientation_phrase": "no"
+    },
+    {
+      "hint_id": "H348",
+      "condition": "view_conditioned",
+      "scripted_view": "relevant_visible",
+      "generation_index": 1,
+      "hint_text": "Check the eggs in Group 1—does that group match what the story says is in each tray?",
+      "category": "1",
+      "mathematical_target": "Group 1",
+      "orientation_phrase": "no"
+    },
+    {
+      "hint_id": "H033",
+      "condition": "view_conditioned",
+      "scripted_view": "relevant_visible",
+      "generation_index": 2,
+      "hint_text": "Check Group 1: does it have the eggs each tray should hold in Ben’s story?",
+      "category": "1",
+      "mathematical_target": "Group 1",
+      "orientation_phrase": "no"
+    }
+  ],
+  "grounding_failures_view_conditioned": [
+    {
+      "hint_id": "H265",
+      "state_id": "MC-EQUAL_SHARING-nluds-0577__one_share_too_big",
+      "scripted_view": "relevant_hidden_unseen",
+      "generation_index": 1,
+      "hint_text": "Turn to find the part of the story about the other car. Check the story: should each car have the same number of people?",
+      "category": "2",
+      "annotator_notes": "\"The other car\" does not say which car."
+    },
+    {
+      "hint_id": "H396",
+      "state_id": "MC-EQUAL_SHARING-nluds-0577__one_share_too_big",
+      "scripted_view": "relevant_hidden_unseen",
+      "generation_index": 2,
+      "hint_text": "Turn to find the part of the story about the people in the other car. Check the people in each car—does each car have the same number?",
+      "category": "2",
+      "annotator_notes": "\"The other car\" does not say which car."
+    },
+    {
+      "hint_id": "H108",
+      "state_id": "MC-EQUAL_SHARING-nluds-1582__nothing_shared",
+      "scripted_view": "all_visible",
+      "generation_index": 1,
+      "hint_text": "Check the baseball cards: are they all in binders, as Edward’s story describes?",
+      "category": "2",
+      "annotator_notes": "Cards are in both the loose pile and the binders. Nothing says which."
+    },
+    {
+      "hint_id": "H359",
+      "state_id": "MC-JOIN-nluds-0077__parts_two_errors",
+      "scripted_view": "relevant_partial",
+      "generation_index": 2,
+      "hint_text": "Compare your Tuesday kids with the story—do they match?",
+      "category": "2",
+      "annotator_notes": "You need the story to know who \"Tuesday kids\" are."
+    }
+  ],
+  "focus_change_example": {
+    "pair": 22,
+    "kind": "cross_view",
+    "condition": "view_conditioned",
+    "state_id": "MC-EQUAL_GROUPS-nluds-0409__two_errors",
+    "hint_a_id": "H182",
+    "hint_b_id": "H038",
+    "scripted_view_a": "relevant_partial",
+    "scripted_view_b": "relevant_hidden",
+    "hint_a_text": "Check how many trays Ben was given in the story—does your number of groups match?",
+    "hint_b_text": "Turn toward Group 1. Check the eggs there—does this match what the story says each tray holds?",
+    "recorded_target_a": "construction",
+    "recorded_target_b": "group 1",
+    "preliminary_classification": "different",
+    "reason": "Different quantity or different part of the problem.",
+    "generation_index_a": 1,
+    "generation_index_b": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_note": "ILLUSTRATIVE EXAMPLE, not a real capture",
+  "question_id": "MC-EQUAL_SHARING-nluds-0490",
+  "support_type": "HINT",
+  "learner_state": {},
+  "view": {
+    "snapshot_source": "recent_best",
+    "snapshot_age_ms": 640,
+    "attempt_id": "example-1",
+    "regions": [
+      {
+        "region_id": "recipient_1",
+        "visible_fraction": 1.0,
+        "label_visible": true,
+        "label_seen_this_attempt": true
+      },
+      {
+        "region_id": "recipient_2",
+        "visible_fraction": 0.3,
+        "label_visible": true,
+        "label_seen_this_attempt": true
+      },
+      {
+        "region_id": "bank",
+        "visible_fraction": 0.8,
+        "label_visible": true,
+        "label_seen_this_attempt": true
+      }
+    ]
+  }
+}
