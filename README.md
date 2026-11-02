@@ -164,20 +164,6 @@ This prints RQ1 reference coverage, grounding metrics and orientation counts; RQ
 | [`paper/Supplementary_Material.pdf`](paper/Supplementary_Material.pdf) | Detailed pipeline, prompt texts, evaluation states, annotation protocol, and extra results |
 | [`media/`](media/) | Actual classroom screenshot and three short recorded feature GIFs |
 
-### Frozen record and naming conventions
-
-The software is presented as **MathBuild VR** (application) and **ViewTutor** (tutoring backend). Historical source identifiers may still contain earlier names, and the archived evaluation data use `reference` for the **view-blind** condition. Those original experimental identifiers are retained to preserve traceability; `reference` does **not** indicate that the model received a visibility snapshot.
-
-The frozen prompt texts reflect the instructions actually used in the study, including the noted reference to an `arrangement_description` field that was not present in the serialized evaluation payload. See Supplementary Material §S3.4. Do not silently rewrite these historical instructions when reproducing the study.
-
-## 🔍 Scope and limitations
-
-- **Unity release:** The full VR application, scenes, and purchased third-party assets are **not distributed**. The Unity scripts are released as reference/integration source and should not be described as a directly buildable standalone Unity project.
-- **Results reproduction:** The supplied CSVs and script reproduce the **reported analysis**, without headset access or an API key. Re-running model generation requires a supported API and can produce different hints.
-- **Evaluation scope:** The visibility snapshots were **scripted**; one of the five views (hidden-unseen) is a synthetic stress test. No learner interaction or learning outcomes were evaluated.
-- **Annotation:** The original annotations were produced by one partially blinded author. Identical-target pairs were assumed to preserve mathematical focus; classifications were not independently checked.
-- **Licensing and redistribution:** The original VR environment uses third-party dependencies. Only code and assets that can legally be distributed should be committed; adding a `LICENSE` file should reflect the rights actually held for the released material.
-
 ---
 
 <p align="center">
