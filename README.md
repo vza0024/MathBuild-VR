@@ -163,7 +163,6 @@ This prints RQ1 reference coverage, grounding metrics and orientation counts; RQ
 | [`examples/example_hints.json`](examples/example_hints.json) | Unedited hint examples, grounding failures, and a focus-change case |
 | [`paper/Supplementary_Material.pdf`](paper/Supplementary_Material.pdf) | Detailed pipeline, prompt texts, evaluation states, annotation protocol, and extra results |
 | [`media/`](media/) | Actual classroom screenshot and three short recorded feature GIFs |
-| `docs/` | Supporting technical documentation |
 
 ### Frozen record and naming conventions
 
